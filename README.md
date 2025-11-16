@@ -12,6 +12,7 @@ I’m Luca Matteo Špoljarević—a Linux‑savvy system integrator, founder
   <img alt="Linux"   width="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg">
   <img alt="Bash"    width="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg">
   <img alt="ZSH"     width="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/zsh/zsh-original.svg">
+  <img alt="Ansible" width="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ansible/ansible-original.svg">
   <img alt="Podman"  width="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/podman/podman-original.svg">
   <img alt="Docker"  width="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg">
   <img alt="Git"     width="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg">
