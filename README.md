@@ -24,4 +24,4 @@ I’m Luca Matteo Špoljarević—a Linux‑savvy system integrator, founder
 
 ### 📊 Stats
 
-![Spoljarevic's GitHub stats](https://github-readme-stats.vercel.app/api?username=spoljarevic&show_icons=true&theme=gruvbox)
+![Spoljarevic's GitHub stats](https://github-readme-stats.vercel.app/api?username=spoljarevic&show_icons=true&theme=transparent)
