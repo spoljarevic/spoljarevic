@@ -38,7 +38,7 @@ All my Repos live on [Codeberg](https://codeberg.org/spoljarevic), the Repos her
 License
 -------
 
-MIT-0
+[MIT-0](./LICENSE)
 
 Author Information
 --------------------
