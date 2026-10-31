@@ -1,25 +1,25 @@
-# 🇩🇪 🇭🇷 Luca Matteo Špoljarević
+<p align="center">
+  <img src="./assets/neural-pulse-lattice.svg" alt="Luca Matteo Špoljarević — neural pulse lattice" width="100%" />
+</p>
 
 *`Privacy‑centric automation lover (Founder @Who2Industries/FOSS enthusiast)`*
 
+### transmission
+
 Greetings everyone!
-I’m Luca Matteo Špoljarević, a half german, half croatian, Linux Sysadmin and DevOps Engineer.
+I’m Luca Matteo Špoljarević, a half german 🇩🇪, half croatian 🇭🇷, Linux Sysadmin and DevOps Engineer.
 I work mostly with Ansible and Podman Containers, but love to just tinker on my Linux setup.
+When I'm not in a deep dive session inside the terminal, I love to play chess — check my strength or challenge me on [Lichess](https://lichess.org/@/Spoljarevic), via my [DWZ on the german chess federation](https://www.schachbund.de/dwz-spieler.html?search=spoljarevic) or my [FIDE Profile](https://ratings.fide.com/profile/533099588) :)
 
-Self-hosting is a big hobby of mine. If I can self-host it, I will.
+All my Repos live on [Codeberg](https://codeberg.org/spoljarevic), the Repos on other platforms are just mirrors, and even for that not every repo I have is there.
 
-When I'm not in a deep dive session inside the terminal, I love to play chess.
-And on the topic of chess, here are some usefull links if you want to know my strength or just wanna play against me :)
+### nodes (currently active)
 
-- [Lichess](https://lichess.org/@/Spoljarevic)
-- [My DWZ on the german chess federation](https://www.schachbund.de/dwz-spieler.html?search=spoljarevic)
-- [FIDE Profile](https://ratings.fide.com/profile/533099588)
+- `n01` · automation — Ansible playbooks and Galaxy roles; the improved Arch Linux post-install automation is currently in testing
+- `n02` · containers — Podman and Quadlets, turning services into reproducible, declarative units
+- `n03` · self-hosting — if I can self-host it, I will
 
-All my Repos live on [Codeberg](https://codeberg.org/spoljarevic), the Repos here are just mirrors, and even for that not every repo I have is here.
-
----
-
-### 🧰 Languages and Tools
+### toolchain
 
 <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 10px;">
   <img alt="Linux"   width="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg">
@@ -29,7 +29,7 @@ All my Repos live on [Codeberg](https://codeberg.org/spoljarevic), the Repos her
   <img alt="Git"     width="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg">
 </div>
 
-### My most proud projects
+### most proud projects
 
 - [Arch Linux post-install Ansible Playbook - Improved version currently in testing branch](https://codeberg.org/Spoljarevic/Arch_Linux_Post-Install_Automation) --> [Documentation](https://kb.spoljarevic.sh/Big-Projects/Arch-Linux-Post-Install-Automation/)
 - [Podman Quadlet files for the Open-Source Ticket System Zammad](https://codeberg.org/Spoljarevic/Zammad-Podman-Quadlets) --> [Documentation](https://kb.spoljarevic.sh/Big-Projects/Zammad-Podman-Quadlets/)
@@ -37,12 +37,10 @@ All my Repos live on [Codeberg](https://codeberg.org/spoljarevic), the Repos her
 - [Docker Container Setup of FreePBX17](https://codeberg.org/Spoljarevic/FreePBX-17-Container) --> [Documentation](https://kb.spoljarevic.sh/Big-Projects/FreePBX-17-Docker-Setup/)
 - [My Neovim config inside my Dotfiles Repository](https://codeberg.org/Spoljarevic/Dotfiles/src/branch/master/nvim) --> [Documentation](https://kb.spoljarevic.sh/Other-Repos/Dotfiles/Neovim/)
 
-License
--------
+### endpoints
+
+[`spoljarevic.sh`](https://spoljarevic.sh) · [`kb.spoljarevic.sh`](https://kb.spoljarevic.sh) · [`@spoljarevic`](https://codeberg.org/spoljarevic) · [`foss@spoljarevic.sh`](mailto:foss@spoljarevic.sh)
+
+### license
 
 [MIT-0](./LICENSE)
-
-Author Information
---------------------
-
-Luca Matteo Špoljarević <foss@spoljarevic.sh>
