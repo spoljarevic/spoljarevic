@@ -3,7 +3,7 @@
 *`Privacy‑centric automation lover (Founder @Who2Industries/FOSS enthusiast)`*
 
 Greetings everyone!
-I’m Luca Matteo Špoljarević,a half german, half croatian, Linux Sysadmin and DevOps Engineer.
+I’m Luca Matteo Špoljarević, a half german, half croatian, Linux Sysadmin and DevOps Engineer.
 I work mostly with Ansible and Podman Containers, but love to just tinker on my Linux setup.
 
 Self-hosting is a big hobby of mine. If I can self-host it, I will.
