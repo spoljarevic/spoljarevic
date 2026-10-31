@@ -10,6 +10,7 @@ Self-hosting is a big hobby of mine. If I can self-host it, I will.
 
 When I'm not in a deep dive session inside the terminal, I love to play chess.
 And on the topic of chess, here are some usefull links if you want to know my strength or just wanna play against me :)
+
 - [Lichess](https://lichess.org/@/Spoljarevic)
 - [My DWZ on the german chess federation](https://www.schachbund.de/dwz-spieler.html?search=spoljarevic)
 - [FIDE Profile](https://ratings.fide.com/profile/533099588)
@@ -29,6 +30,7 @@ All my Repos live on [Codeberg](https://codeberg.org/spoljarevic), the Repos her
 </div>
 
 ### My most proud projects
+
 - [Arch Linux post-install Ansible Playbook - Improved version currently in testing branch](https://codeberg.org/Spoljarevic/Arch_Linux_Post-Install_Automation) --> [Documentation](https://kb.spoljarevic.sh/Big-Projects/Arch-Linux-Post-Install-Automation/)
 - [Podman Quadlet files for the Open-Source Ticket System Zammad](https://codeberg.org/Spoljarevic/Zammad-Podman-Quadlets) --> [Documentation](https://kb.spoljarevic.sh/Big-Projects/Zammad-Podman-Quadlets/)
 - [Ansible Galaxy Role for easy and automated installation of CachyOS and Blackarch Repo on top of vanilla Arch](https://codeberg.org/Spoljarevic/ansible-galaxy-archlinux-repomanager) --> [Documentation](https://galaxy.ansible.com/ui/standalone/roles/spoljarevic/archlinux-repomanager/documentation/)

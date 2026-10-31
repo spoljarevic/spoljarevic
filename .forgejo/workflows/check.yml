@@ -1,0 +1,62 @@
+name: Check
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 6 * * 1"
+
+jobs:
+  lint:
+    runs-on: codeberg-small
+    container:
+      image: node:22-bookworm
+    steps:
+      - uses: https://code.forgejo.org/actions/checkout@v4
+
+      - name: Lint Markdown
+        run: npx -y markdownlint-cli@0.45.0 --disable MD001 MD003 MD013 MD033 MD041 -- "**/*.md"
+
+      - name: Check whitespace and encoding
+        run: |
+          fail=0
+          for f in $(git ls-files); do
+            if ! iconv -f UTF-8 -t UTF-8 "$f" > /dev/null 2>&1; then
+              echo "::error file=$f::not valid UTF-8"; fail=1
+            fi
+            if grep -nP '\r$' "$f"; then
+              echo "::error file=$f::contains CRLF line endings"; fail=1
+            fi
+            if [ -s "$f" ] && [ -n "$(tail -c1 "$f")" ]; then
+              echo "::error file=$f::missing trailing newline"; fail=1
+            fi
+          done
+          exit $fail
+
+  links:
+    runs-on: codeberg-small
+    container:
+      image: node:22-bookworm
+    steps:
+      - uses: https://code.forgejo.org/actions/checkout@v4
+
+      - name: Check links in README.md
+        run: |
+          fail=0
+          for link in $(grep -oE '\]\([^)]+\)' README.md | sed -E 's/^\]\((.*)\)$/\1/' | grep -vE '^(https?:|mailto:|#)'); do
+            if [ -e "$link" ]; then
+              echo "OK   $link"
+            else
+              echo "::error::missing local file: $link"; fail=1
+            fi
+          done
+          for url in $(grep -oE 'https?://[^] )"<>]+' README.md | sort -u); do
+            code=$(curl -s -o /dev/null -L -w '%{http_code}' --retry 3 --retry-all-errors --max-time 30 "$url" || true)
+            case "$code" in
+              2??|3??) echo "OK   $code $url" ;;
+              403|429) echo "::warning::$code (likely bot protection) $url" ;;
+              *)       echo "::error::$code $url"; fail=1 ;;
+            esac
+          done
+          exit $fail
