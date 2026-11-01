@@ -39,10 +39,14 @@ jobs:
     container:
       image: python:3.13-slim
     steps:
+      # checkout is a JavaScript action and needs node in the job container
+      - name: Install node and git
+        run: export DEBIAN_FRONTEND=noninteractive && apt-get update -qq && apt-get install -y -qq --no-install-recommends nodejs git ca-certificates > /dev/null
+
       - uses: https://code.forgejo.org/actions/checkout@v4
 
       - name: Install linters
-        run: pip install --no-cache-dir ruff==0.14.0 yamllint==1.37.1
+        run: pip install --no-cache-dir --root-user-action=ignore ruff==0.14.0 yamllint==1.37.1
 
       - name: Lint and format-check Python
         run: |
