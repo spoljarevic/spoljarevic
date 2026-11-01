@@ -6,7 +6,9 @@ Stdlib only. Needs git on PATH. Usage: python3 scripts/stats.py
 
 import datetime as dt
 import json
+import math
 import os
+import re
 import subprocess
 import sys
 import tempfile
@@ -250,7 +252,7 @@ def activity_card(days, today):
 
 
 def code_card(lines, quadlets, tasks):
-    w, h = 590, 320
+    w, h = 600, 320
     top = lines.most_common(6)
     total = sum(lines.values()) or 1
     p = frame(w, h, "CODEBASE/LINES", "non-empty lines across public repos")
@@ -274,7 +276,7 @@ def code_card(lines, quadlets, tasks):
 
 
 def chess_card(lc):
-    w, h = 590, 320
+    w, h = 600, 320
     perfs = lc.get("perfs", {})
     rows = [(k, perfs[k]) for k in ("classical", "rapid", "blitz", "bullet", "correspondence", "puzzle") if perfs.get(k, {}).get("games")]
     p = frame(w, h, "CHESS/LICHESS", f"@{LICHESS} · ratings")
@@ -377,7 +379,7 @@ def transmission_panel(t):
     return close(p)
 
 
-ROW_W, CHIP_W, ROW_H = 1050, 140, 76
+ROW_W, CHIP_W, ROW_H = 1060, 140, 76
 
 
 def repo_row(prefix, i, entry, meta, color):
@@ -424,8 +426,12 @@ def stack_panel(items):
     return close(p)
 
 
-def endpoint_chip(e):
-    w, h = int(max(len(e["label"]) * 7.3, len(e["kind"]) * 9) + 46), 60
+def endpoint_width(e):
+    return int(max(len(e["label"]) * 7.3, len(e["kind"]) * 9) + 46)
+
+
+def endpoint_chip(e, w):
+    h = 60
     p = svg_open(w, h, f"{e['kind']}: {e['label']}")
     p += [
         f'  <rect x=".5" y=".5" width="{w - 11}" height="{h - 1}" fill="{BG}" stroke="{EDGE}" stroke-width="0.8"/>',
@@ -433,7 +439,7 @@ def endpoint_chip(e):
         f'    <text x="18" y="24" font-size="8" letter-spacing="3" fill="{BLUE}">{escape(e["kind"].upper())} ↗</text>',
         f'    <text x="18" y="44" font-size="12" fill="{CREAM}">{escape(e["label"])}</text>',
     ]
-    return close(p), w
+    return close(p)
 
 
 def footer_panel(text):
@@ -449,29 +455,50 @@ def footer_panel(text):
 
 
 def pct(px):
-    return f"{100 * px / 1200:.2f}".rstrip("0").rstrip(".") + "%"
+    # floor so images sharing a line never add up to more than 100% and wrap
+    return f"{math.floor(10000 * px / 1200) / 100:.2f}".rstrip("0").rstrip(".") + "%"
 
 
 def img(src, alt, width="100%"):
-    return f'<img src="./assets/{src}" alt="{escape(alt, {chr(34): "&quot;"})}" width="{width}" />'
+    # align="top" drops the image off the text baseline, removing the descender gap below it
+    return f'<img src="./assets/{src}" alt="{escape(alt, {chr(34): "&quot;"})}" width="{width}" align="top" />'
+
+
+def compose(title, *svgs):
+    """Stack full SVG documents vertically into one SVG, prefixing ids so they stay unique."""
+    body, y, w = [], 0, 0
+    for i, svg in enumerate(svgs):
+        m = re.match(r'<svg [^>]*viewBox="0 0 (\S+) (\S+)"[^>]*>', svg)
+        pw, ph = float(m.group(1)), float(m.group(2))
+        inner = re.sub(r'\s*<title id="t">.*?</title>', "", svg[m.end() : svg.rindex("</svg>")])
+        for ident in set(re.findall(r'id="([^"]+)"', inner)):
+            inner = re.sub(rf'(id="|#){re.escape(ident)}(?=[")])', rf"\g<1>p{i}-{ident}", inner)
+        body.append(f'  <svg y="{y:g}" width="{pw:g}" height="{ph:g}" viewBox="0 0 {pw:g} {ph:g}">{inner}</svg>')
+        y, w = y + ph, max(w, pw)
+    return "\n".join(
+        [
+            f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {w:g} {y:g}" width="{w:g}" height="{y:g}" role="img" aria-labelledby="t">',
+            f'  <title id="t">{escape(title)}</title>',
+            *body,
+            "</svg>\n",
+        ]
+    )
 
 
 def link(url, inner):
     return f'<a href="{escape(url, {chr(34): "&quot;"})}">{inner}</a>'
 
 
-def sections(cfg, repo_list):
+def sections(cfg, repo_list, cards):
     """Render the README sections as SVG panels; return (files, readme)."""
     by_name = {r["name"].lower(): r for r in repo_list}
-    files, md = {}, []
+    files, parts = {}, []
 
-    def header(i, title, note):
-        name = f"sections/{i:02d}-header.svg"
-        files[name] = section_header(i, title, note)
-        return img(name, f"{title} — {note}")
+    def merged(name, title, *svgs):
+        files[name] = compose(title, *svgs)
+        parts.append(img(name, title))
 
     def rows(prefix, entries, color):
-        out = []
         for i, e in enumerate(entries, 1):
             r = by_name.get(e["repo"].lower(), {})
             meta = " · ".join(x for x in ((r.get("language") or "").lower(), f"upd {r['updated_at'][:10]}" if r else "") if x)
@@ -480,71 +507,64 @@ def sections(cfg, repo_list):
             files[row] = repo_row(prefix, i, e, meta, color)
             files[tag] = chip("DOCS ↗" if e.get("docs") else "REPO ↗", color)
             alt = f"{prefix}{i:02d} · {USER}/{e['repo']} — {e['text']}"
-            out.append(
-                link(url, img(row, alt, pct(ROW_W)))
-                + link(e.get("docs") or url, img(tag, "docs" if e.get("docs") else "repo", pct(CHIP_W)))
-            )
-        return out
+            parts.append(link(url, img(row, alt, pct(ROW_W))))
+            parts.append(link(e.get("docs") or url, img(tag, "docs" if e.get("docs") else "repo", pct(CHIP_W))))
 
-    md.append(f'<p align="center">\n  {img("neural-pulse-lattice.svg", "Luca Matteo Špoljarević — neural pulse lattice")}\n</p>')
+    def header(i, title, note):
+        name = f"sections/{i:02d}-header.svg"
+        files[name] = section_header(i, title, note)
+        parts.append(img(name, f"{title} — {note}"))
+
+    parts.append(img("neural-pulse-lattice.svg", "Luca Matteo Špoljarević — neural pulse lattice"))
 
     t = cfg["transmission"]
-    files["sections/transmission.svg"] = transmission_panel(t)
-    md.append(
-        "<p>\n  "
-        + header(1, "TRANSMISSION", "incoming")
-        + "\n  "
-        + img("sections/transmission.svg", " ".join([t["lead"], *t["body"]]))
-        + "\n</p>"
+    merged(
+        "sections/01-transmission.svg",
+        "transmission: " + " ".join([t["lead"], *t["body"]]),
+        section_header(1, "TRANSMISSION", "incoming"),
+        transmission_panel(t),
     )
 
-    md.append(
-        "<p>\n  "
-        + header(2, "NODES/CURRENTLY/ACTIVE", f"{len(cfg['nodes'])} signals")
-        + "\n  "
-        + "\n  ".join(rows("n", cfg["nodes"], BLUE))
-        + "\n</p>"
-    )
+    header(2, "NODES/CURRENTLY/ACTIVE", f"{len(cfg['nodes'])} signals")
+    rows("n", cfg["nodes"], BLUE)
 
-    md.append(
-        "<p>\n  "
-        + header(3, "TELEMETRY", "rendered daily · codeberg + lichess api")
-        + "\n  "
-        + img("stats-activity.svg", "Codeberg activity over the last 12 months")
-        + "\n</p>\n<p>\n  "
-        + img("stats-code.svg", "Lines of code by language across my repos", "49%")
-        + "\n  "
-        + link(f"https://lichess.org/@/{LICHESS}", img("stats-chess.svg", "Lichess ratings", "49%"))
-        + "\n</p>"
+    merged(
+        "sections/03-telemetry.svg",
+        "telemetry: Codeberg activity over the last 12 months",
+        section_header(3, "TELEMETRY", "rendered daily · codeberg + lichess api"),
+        cards["activity"],
     )
+    parts.append(img("stats-code.svg", "Lines of code by language across my repos", pct(600)))
+    parts.append(link(f"https://lichess.org/@/{LICHESS}", img("stats-chess.svg", "Lichess ratings", pct(600))))
 
-    md.append(
-        "<p>\n  "
-        + header(4, "ARCHIVE/SHIPPED", f"{len(cfg['archive'])} builds")
-        + "\n  "
-        + "\n  ".join(rows("a", cfg["archive"], VIOLET))
-        + "\n</p>"
-    )
+    header(4, "ARCHIVE/SHIPPED", f"{len(cfg['archive'])} builds")
+    rows("a", cfg["archive"], VIOLET)
 
     items = cfg["stack"]["items"]
-    files["sections/stack.svg"] = stack_panel(items)
-    md.append("<p>\n  " + header(5, "STACK", "daily drivers") + "\n  " + img("sections/stack.svg", "stack: " + ", ".join(items)) + "\n</p>")
+    merged("sections/05-stack.svg", "stack: " + ", ".join(items), section_header(5, "STACK", "daily drivers"), stack_panel(items))
 
+    header(6, "ENDPOINTS", "transmit")
     groups = {}
     for i, e in enumerate(cfg["endpoints"], 1):
-        svg, w = endpoint_chip(e)
-        name = f"sections/endpoint-{i:02d}.svg"
-        files[name] = svg
-        groups.setdefault(e.get("group", ""), []).append(link(e["url"], img(name, f"{e['kind']}: {e['label']}", pct(w))))
-    md.append(
-        "<p>\n  " + header(6, "ENDPOINTS", "transmit") + "\n</p>\n" + "\n".join("<p>\n  " + "".join(g) + "\n</p>" for g in groups.values())
-    )
+        groups.setdefault(e.get("group", ""), []).append((i, e))
+    for group in groups.values():
+        # stretch the chips of a row so the row spans the full width
+        natural = [endpoint_width(e) for _, e in group]
+        extra = max(0, 1200 - sum(natural)) // len(group)
+        for (i, e), w in zip(group, natural, strict=True):
+            name = f"sections/endpoint-{i:02d}.svg"
+            files[name] = endpoint_chip(e, w + extra)
+            parts.append(link(e["url"], img(name, f"{e['kind']}: {e['label']}", pct(w + extra))))
 
     f = cfg["footer"]
     files["sections/footer.svg"] = footer_panel(f["text"])
-    md.append("<p>\n  " + link(f["url"], img("sections/footer.svg", f["text"].lower())) + "\n</p>")
+    parts.append(link(f["url"], img("sections/footer.svg", f["text"].lower())))
 
-    readme = "<!-- generated by scripts/stats.py from scripts/profile.toml; edit that file, not this one -->\n\n" + "\n\n".join(md) + "\n"
+    # one paragraph, joined by comments instead of whitespace: whitespace between images renders as gaps
+    readme = (
+        "<!-- generated by scripts/stats.py from scripts/profile.toml; edit that file, not this one -->\n\n"
+        '<p align="center">\n' + "<!--\n-->".join(parts) + "\n</p>\n"
+    )
     return files, readme
 
 
@@ -562,12 +582,13 @@ def main():
     lines, quadlets, tasks = count_lines(rl)
     lc = get(f"https://lichess.org/api/user/{LICHESS}")
     write("neural-pulse-lattice.svg", banner(len(rl), days, today, quadlets, tasks, lc))
-    write("stats-activity.svg", activity_card(days, today))
+    cards = {"activity": activity_card(days, today)}
+    write("stats-activity.svg", cards["activity"])
     write("stats-code.svg", code_card(lines, quadlets, tasks))
     write("stats-chess.svg", chess_card(lc))
     with open(PROFILE, "rb") as f:
         cfg = tomllib.load(f)
-    files, readme = sections(cfg, rl)
+    files, readme = sections(cfg, rl, cards)
     os.makedirs(os.path.join(OUT, "sections"), exist_ok=True)
     for stale in os.listdir(os.path.join(OUT, "sections")):
         if f"sections/{stale}" not in files:

@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 148" width="1200" height="148" role="img" aria-labelledby="t">
+  <title id="t">stack: linux, bash, ansible, podman, git</title>
+  <svg y="0" width="1200" height="64" viewBox="0 0 1200 64">
+  <defs><radialGradient id="p0-h" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#4fbcff" stop-opacity="0.85"/><stop offset="0.4" stop-color="#4fbcff" stop-opacity="0.18"/><stop offset="1" stop-color="#4fbcff" stop-opacity="0"/></radialGradient></defs>
+  <rect width="1200" height="64" fill="#050810"/>
+  <g font-family="'JetBrains Mono', 'IBM Plex Mono', ui-monospace, monospace">
+    <circle cx="28" cy="32" r="9" fill="url(#p0-h)"><animate attributeName="r" values="9;14;9" dur="3s" begin="0s" repeatCount="indefinite"/></circle><circle cx="28" cy="32" r="3" fill="#4fbcff"/>
+    <text x="52" y="36" font-size="11" letter-spacing="4" fill="#4fbcff">STACK</text>
+    <line x1="118" y1="32" x2="1000" y2="32" stroke="#1a2a4a" stroke-width="0.8"/>
+    <text x="1172" y="36" font-size="10" letter-spacing="3" fill="#a5b4cf" text-anchor="end">05 · DAILY DRIVERS</text>
+  </g>
+</svg>
+  <svg y="64" width="1200" height="84" viewBox="0 0 1200 84">
+  <defs><radialGradient id="p1-h" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#4fbcff" stop-opacity="0.85"/><stop offset="0.4" stop-color="#4fbcff" stop-opacity="0.18"/><stop offset="1" stop-color="#4fbcff" stop-opacity="0"/></radialGradient></defs>
+  <rect x=".5" y=".5" width="1199" height="83" fill="#050810" stroke="#1a2a4a" stroke-width="0.8"/>
+  <path id="p1-stack-wire" d="M 60 42 L 1140 42" stroke="#1a2a4a" stroke-width="0.8" fill="none"/>
+  <circle r="3" fill="#7ddbff"><animateMotion dur="6s" repeatCount="indefinite"><mpath href="#p1-stack-wire"/></animateMotion><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.1;0.85;1" dur="6s" repeatCount="indefinite"/></circle>
+  <g font-family="'JetBrains Mono', 'IBM Plex Mono', ui-monospace, monospace">
+    <rect x="24.0" y="27" width="72" height="30" rx="15" fill="#050810" stroke="#1a2a4a" stroke-width="0.8"/>
+    <circle cx="38.0" cy="42" r="2.6" fill="#4fbcff"/>
+    <text x="66.0" y="46" font-size="12" fill="#fef3c7" text-anchor="middle">linux</text>
+    <rect x="298.0" y="27" width="64" height="30" rx="15" fill="#050810" stroke="#1a2a4a" stroke-width="0.8"/>
+    <circle cx="312.0" cy="42" r="2.6" fill="#a78bfa"/>
+    <text x="336.0" y="46" font-size="12" fill="#fef3c7" text-anchor="middle">bash</text>
+    <rect x="556.0" y="27" width="88" height="30" rx="15" fill="#050810" stroke="#1a2a4a" stroke-width="0.8"/>
+    <circle cx="570.0" cy="42" r="2.6" fill="#4fbcff"/>
+    <text x="606.0" y="46" font-size="12" fill="#fef3c7" text-anchor="middle">ansible</text>
+    <rect x="830.0" y="27" width="80" height="30" rx="15" fill="#050810" stroke="#1a2a4a" stroke-width="0.8"/>
+    <circle cx="844.0" cy="42" r="2.6" fill="#a78bfa"/>
+    <text x="876.0" y="46" font-size="12" fill="#fef3c7" text-anchor="middle">podman</text>
+    <rect x="1112.0" y="27" width="56" height="30" rx="15" fill="#050810" stroke="#1a2a4a" stroke-width="0.8"/>
+    <circle cx="1126.0" cy="42" r="2.6" fill="#4fbcff"/>
+    <text x="1146.0" y="46" font-size="12" fill="#fef3c7" text-anchor="middle">git</text>
+  </g>
+</svg>
+</svg>
