@@ -34,6 +34,34 @@ jobs:
           done
           exit $fail
 
+  code:
+    runs-on: codeberg-small
+    container:
+      image: python:3.13-slim
+    steps:
+      - uses: https://code.forgejo.org/actions/checkout@v4
+
+      - name: Install linters
+        run: pip install --no-cache-dir ruff==0.14.0 yamllint==1.37.1
+
+      - name: Lint and format-check Python
+        run: |
+          ruff check scripts
+          ruff format --check --diff scripts
+          python -m py_compile scripts/*.py
+
+      - name: Lint workflow YAML
+        run: yamllint .forgejo
+
+      - name: Validate SVGs
+        run: |
+          fail=0
+          for f in assets/*.svg; do
+            python -c "import sys, xml.etree.ElementTree as E; E.parse(sys.argv[1])" "$f" \
+              || { echo "::error file=$f::invalid SVG/XML"; fail=1; }
+          done
+          exit $fail
+
   links:
     runs-on: codeberg-small
     container:

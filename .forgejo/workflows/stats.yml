@@ -1,0 +1,34 @@
+name: Stats
+
+on:
+  schedule:
+    - cron: "17 4 * * *"
+  workflow_dispatch:
+  push:
+    branches: [master]
+    paths:
+      - scripts/stats.py
+      - .forgejo/workflows/stats.yml
+
+jobs:
+  render:
+    runs-on: codeberg-small
+    container:
+      image: node:22-bookworm
+    steps:
+      - uses: https://code.forgejo.org/actions/checkout@v4
+        with:
+          token: ${{ secrets.STATS_TOKEN || github.token }}
+
+      - name: Render stat cards
+        run: python3 -I scripts/stats.py
+
+      - name: Commit changes
+        run: |
+          git add assets/stats-*.svg
+          if git diff --cached --quiet; then
+            echo "no changes"; exit 0
+          fi
+          git -c user.name="profile-stats" -c user.email="foss@spoljarevic.sh" \
+            commit -m "Update stats"
+          git push

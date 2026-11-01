@@ -19,6 +19,18 @@ All my Repos live on [Codeberg](https://codeberg.org/spoljarevic), the Repos on 
 - `n02` · containers — Podman and Quadlets, turning services into reproducible, declarative units
 - `n03` · self-hosting — if I can self-host it, I will
 
+### telemetry
+
+<p align="center">
+  <img src="./assets/stats-activity.svg" alt="Codeberg activity over the last 12 months" width="100%" />
+</p>
+<p align="center">
+  <img src="./assets/stats-code.svg" alt="Lines of code by language across my repos" width="49%" />
+  <a href="https://lichess.org/@/Spoljarevic"><img src="./assets/stats-chess.svg" alt="Lichess ratings" width="49%" /></a>
+</p>
+
+<sub>rendered daily from the Codeberg and Lichess APIs by <a href="./scripts/stats.py"><code>scripts/stats.py</code></a></sub>
+
 ### toolchain
 
 <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 10px;">
