@@ -7,11 +7,11 @@
   <g font-family="ui-monospace, 'JetBrains Mono', 'Fira Code', Menlo, Consolas, monospace">
     <text x="28" y="40" font-size="15" fill="#4fd1c5" letter-spacing="2">// activity · last 12 months</text>
     <text x="1172" y="40" font-size="12" fill="#8b9bb4" text-anchor="end">updated 2026-11-01</text>
-    <text x="28" y="86" font-size="26" font-weight="700" fill="#e6edf7">460</text>
+    <text x="28" y="86" font-size="26" font-weight="700" fill="#e6edf7">461</text>
     <text x="28" y="106" font-size="11" fill="#8b9bb4" letter-spacing="1">CONTRIBUTIONS</text>
-    <text x="193" y="86" font-size="26" font-weight="700" fill="#e6edf7">91</text>
+    <text x="193" y="86" font-size="26" font-weight="700" fill="#e6edf7">92</text>
     <text x="193" y="106" font-size="11" fill="#8b9bb4" letter-spacing="1">ACTIVE DAYS</text>
-    <text x="358" y="86" font-size="26" font-weight="700" fill="#4fd1c5">2d</text>
+    <text x="358" y="86" font-size="26" font-weight="700" fill="#4fd1c5">3d</text>
     <text x="358" y="106" font-size="11" fill="#8b9bb4" letter-spacing="1">CURRENT STREAK</text>
     <text x="523" y="86" font-size="26" font-weight="700" fill="#e6edf7">11d</text>
     <text x="523" y="106" font-size="11" fill="#8b9bb4" letter-spacing="1">LONGEST STREAK</text>
@@ -118,7 +118,9 @@
       <line x1="938.8" y1="168.2" x2="938.8" y2="186.4"/>
       <line x1="1024.4" y1="186.4" x2="1024.4" y2="204.6"/>
       <line x1="1131.4" y1="222.8" x2="1152.8" y2="222.8"/>
+      <line x1="1131.4" y1="259.1" x2="1152.8" y2="259.1"/>
       <line x1="1152.8" y1="222.8" x2="1152.8" y2="240.9"/>
+      <line x1="1152.8" y1="240.9" x2="1152.8" y2="259.1"/>
     </g>
     <circle cx="40.0" cy="150.0" r="2" fill="#2b3a5c"/>
     <circle cx="40.0" cy="168.2" r="2" fill="#2b3a5c"/>
@@ -490,7 +492,7 @@
     <circle cx="1152.8" cy="204.6" r="2" fill="#2b3a5c"/>
     <circle cx="1152.8" cy="222.8" r="6.6" fill="#b2f5ea"><title>2026-10-30: 27</title></circle>
     <circle cx="1152.8" cy="240.9" r="4.2" fill="#38b2ac"><title>2026-10-31: 12</title></circle>
-    <circle cx="1152.8" cy="259.1" r="2" fill="#2b3a5c"/>
+    <circle cx="1152.8" cy="259.1" r="3" fill="#2c7a7b"><title>2026-11-01: 1</title></circle>
     <circle cx="1152.8" cy="259.1" r="4" fill="none" stroke="#e6edf7" stroke-width="1.5"><animate attributeName="r" values="4;11;4" dur="2.4s" repeatCount="indefinite"/><animate attributeName="opacity" values="1;0;1" dur="2.4s" repeatCount="indefinite"/></circle>
   </g>
 </svg>
