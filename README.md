@@ -38,7 +38,7 @@ Privacy-centric, FOSS by default, founder of Who2Industries; if I can self-host 
 
 ### endpoints
 
-[`spoljarevic.sh`](https://spoljarevic.sh) · [`@spoljarevic`](https://codeberg.org/spoljarevic) · [`foss@spoljarevic.sh`](mailto:foss@spoljarevic.sh)
+[`spoljarevic.sh`](https://spoljarevic.sh) · [`@spoljarevic`](https://codeberg.org/spoljarevic) · [`@spoljarevic@techhub.social`](https://techhub.social/@spoljarevic) · [`foss@spoljarevic.sh`](mailto:foss@spoljarevic.sh)
 
 [`lichess`](https://lichess.org/@/Spoljarevic) · [`dwz`](https://www.schachbund.de/dwz-spieler.html?search=spoljarevic) · [`fide`](https://ratings.fide.com/profile/533099588) · [`kb.spoljarevic.sh`](https://kb.spoljarevic.sh)
 
