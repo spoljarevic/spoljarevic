@@ -60,7 +60,7 @@ jobs:
       - name: Validate SVGs
         run: |
           fail=0
-          for f in assets/*.svg; do
+          for f in $(find assets -name "*.svg"); do
             python -c "import sys, xml.etree.ElementTree as E; E.parse(sys.argv[1])" "$f" \
               || { echo "::error file=$f::invalid SVG/XML"; fail=1; }
           done

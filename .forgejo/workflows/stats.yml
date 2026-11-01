@@ -9,6 +9,7 @@ on:
     paths:
       - scripts/stats.py
       - scripts/banner.svg.in
+      - scripts/profile.toml
       - .forgejo/workflows/stats.yml
 
 jobs:
@@ -21,12 +22,12 @@ jobs:
         with:
           token: ${{ secrets.STATS_TOKEN || github.token }}
 
-      - name: Render stat cards
+      - name: Render banner, stat cards, sections and README
         run: python3 -I scripts/stats.py
 
       - name: Commit changes
         run: |
-          git add assets/stats-*.svg assets/neural-pulse-lattice.svg
+          git add -A README.md assets
           if git diff --cached --quiet; then
             echo "no changes"; exit 0
           fi

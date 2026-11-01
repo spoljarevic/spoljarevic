@@ -1,0 +1,99 @@
+# Profile content. scripts/stats.py renders it into assets/sections/*.svg and writes README.md.
+# Edit this file, not README.md.
+
+[transmission]
+lead = "Linux sysadmin and DevOps engineer, half German, half Croatian."
+body = [
+  "I automate infrastructure with Ansible and run it as rootless Podman containers.",
+  "Privacy-centric, FOSS by default, founder of Who2Industries; if I can self-host it, I will.",
+]
+
+[[nodes]]
+repo = "Arch_Linux_Post-Install_Automation"
+text = "reworked post-install playbook, currently in the testing branch"
+docs = "https://kb.spoljarevic.sh/Big-Projects/Arch-Linux-Post-Install-Automation/"
+
+[[nodes]]
+repo = "Grafana-Server-Monitoring"
+text = "rootless Grafana monitoring stack as Podman Quadlets"
+
+[[nodes]]
+repo = "ansible-galaxy-rhel-based-hardening"
+text = "Ansible role hardening RHEL and Rocky Linux"
+
+[[archive]]
+repo = "Zammad-Podman-Quadlets"
+text = "Quadlets for the Zammad ticket system"
+docs = "https://kb.spoljarevic.sh/Big-Projects/Zammad-Podman-Quadlets/"
+
+[[archive]]
+repo = "ansible-galaxy-archlinux-repomanager"
+text = "Galaxy role adding the CachyOS and BlackArch repos to vanilla Arch"
+docs = "https://galaxy.ansible.com/ui/standalone/roles/spoljarevic/archlinux-repomanager/documentation/"
+
+[[archive]]
+repo = "FreePBX-17-Container"
+text = "containerized FreePBX 17 setup"
+docs = "https://kb.spoljarevic.sh/Big-Projects/FreePBX-17-Docker-Setup/"
+
+[[archive]]
+repo = "Dotfiles"
+url = "https://codeberg.org/Spoljarevic/Dotfiles/src/branch/master/nvim"
+text = "my Neovim config and the rest of my desktop"
+docs = "https://kb.spoljarevic.sh/Other-Repos/Dotfiles/Neovim/"
+
+[stack]
+items = ["linux", "bash", "ansible", "podman", "git"]
+
+# group: endpoints with the same group share a row
+[[endpoints]]
+kind = "web"
+label = "spoljarevic.sh"
+url = "https://spoljarevic.sh"
+group = "contact"
+
+[[endpoints]]
+kind = "forge"
+label = "@spoljarevic"
+url = "https://codeberg.org/spoljarevic"
+group = "contact"
+
+[[endpoints]]
+kind = "fedi"
+label = "@spoljarevic@techhub.social"
+url = "https://techhub.social/@spoljarevic"
+group = "contact"
+
+[[endpoints]]
+kind = "mail"
+label = "foss@spoljarevic.sh"
+url = "mailto:foss@spoljarevic.sh"
+group = "contact"
+
+[[endpoints]]
+kind = "chess"
+label = "lichess"
+url = "https://lichess.org/@/Spoljarevic"
+group = "elsewhere"
+
+[[endpoints]]
+kind = "chess"
+label = "dwz"
+url = "https://www.schachbund.de/dwz-spieler.html?search=spoljarevic"
+group = "elsewhere"
+
+[[endpoints]]
+kind = "chess"
+label = "fide"
+url = "https://ratings.fide.com/profile/533099588"
+group = "elsewhere"
+
+[[endpoints]]
+kind = "docs"
+label = "kb.spoljarevic.sh"
+url = "https://kb.spoljarevic.sh"
+group = "elsewhere"
+
+[footer]
+text = "SOURCE ON CODEBERG · OTHER FORGES CARRY MIRRORS · MIT-0"
+url = "https://codeberg.org/spoljarevic"

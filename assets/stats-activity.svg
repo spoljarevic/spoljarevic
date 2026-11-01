@@ -6,9 +6,9 @@
   <g font-family="'JetBrains Mono', 'IBM Plex Mono', ui-monospace, monospace" fill="#a5b4cf">
     <text x="32" y="40" font-size="10" letter-spacing="4" fill="#4fbcff">ACTIVITY/LAST/12M</text>
     <text x="32" y="58" font-size="10" letter-spacing="4">CODEBERG · UPDATED 2026-11-01</text>
-    <text x="488" y="48" font-size="24" font-weight="700" fill="#fef3c7">463</text>
+    <text x="488" y="48" font-size="24" font-weight="700" fill="#fef3c7">427</text>
     <text x="488" y="68" font-size="9" letter-spacing="3">CONTRIBUTIONS</text>
-    <text x="658" y="48" font-size="24" font-weight="700" fill="#fef3c7">92</text>
+    <text x="658" y="48" font-size="24" font-weight="700" fill="#fef3c7">85</text>
     <text x="658" y="68" font-size="9" letter-spacing="3">ACTIVE DAYS</text>
     <text x="828" y="48" font-size="24" font-weight="700" fill="#fef3c7">3d</text>
     <text x="828" y="68" font-size="9" letter-spacing="3">CURRENT STREAK</text>
@@ -75,16 +75,10 @@
       <line x1="383.2" y1="245" x2="383.2" y2="266"/>
       <line x1="404.4" y1="140" x2="404.4" y2="161"/>
       <line x1="404.4" y1="161" x2="404.4" y2="182"/>
-      <line x1="404.4" y1="161" x2="425.6" y2="161"/>
       <line x1="404.4" y1="182" x2="404.4" y2="203"/>
-      <line x1="404.4" y1="182" x2="425.6" y2="182"/>
       <line x1="404.4" y1="203" x2="404.4" y2="224"/>
       <line x1="404.4" y1="224" x2="425.6" y2="224"/>
-      <line x1="425.6" y1="161" x2="425.6" y2="182"/>
-      <line x1="425.6" y1="161" x2="446.8" y2="161"/>
       <line x1="425.6" y1="224" x2="446.8" y2="224"/>
-      <line x1="446.8" y1="203" x2="446.8" y2="224"/>
-      <line x1="446.8" y1="203" x2="468.0" y2="203"/>
       <line x1="446.8" y1="224" x2="446.8" y2="245"/>
       <line x1="446.8" y1="224" x2="468.0" y2="224"/>
       <line x1="446.8" y1="245" x2="446.8" y2="266"/>
@@ -105,9 +99,6 @@
       <line x1="489.2" y1="203" x2="489.2" y2="224"/>
       <line x1="489.2" y1="224" x2="489.2" y2="245"/>
       <line x1="489.2" y1="224" x2="510.4" y2="224"/>
-      <line x1="510.4" y1="182" x2="531.6" y2="182"/>
-      <line x1="531.6" y1="140" x2="531.6" y2="161"/>
-      <line x1="531.6" y1="161" x2="531.6" y2="182"/>
       <line x1="786.0" y1="161" x2="786.0" y2="182"/>
       <line x1="786.0" y1="224" x2="786.0" y2="245"/>
       <line x1="828.4" y1="224" x2="828.4" y2="245"/>
@@ -115,7 +106,6 @@
       <line x1="913.2" y1="224" x2="913.2" y2="245"/>
       <line x1="934.4" y1="161" x2="934.4" y2="182"/>
       <line x1="1019.2" y1="182" x2="1019.2" y2="203"/>
-      <line x1="1125.2" y1="224" x2="1146.4" y2="224"/>
       <line x1="1125.2" y1="266" x2="1146.4" y2="266"/>
       <line x1="1146.4" y1="224" x2="1146.4" y2="245"/>
       <line x1="1146.4" y1="245" x2="1146.4" y2="266"/>
@@ -239,16 +229,16 @@
     <circle cx="383.2" cy="224" r="2.6" fill="#a78bfa"><title>2026-02-20: 8</title></circle>
     <circle cx="383.2" cy="245" r="2.6" fill="#a78bfa"><title>2026-02-21: 8</title></circle>
     <circle cx="383.2" cy="266" r="3.2" fill="#4fbcff"><title>2026-02-22: 13</title></circle>
-    <circle cx="404.4" cy="140" r="3.2" fill="#4fbcff"><title>2026-02-23: 12</title></circle>
-    <circle cx="404.4" cy="161" r="2.6" fill="#a78bfa"><title>2026-02-24: 7</title></circle>
-    <circle cx="404.4" cy="182" r="3.2" fill="#4fbcff"><title>2026-02-25: 10</title></circle>
+    <circle cx="404.4" cy="140" r="2.6" fill="#a78bfa"><title>2026-02-23: 2</title></circle>
+    <circle cx="404.4" cy="161" r="2.6" fill="#a78bfa"><title>2026-02-24: 6</title></circle>
+    <circle cx="404.4" cy="182" r="2.6" fill="#a78bfa"><title>2026-02-25: 2</title></circle>
     <circle cx="404.4" cy="203" r="2.6" fill="#a78bfa"><title>2026-02-26: 1</title></circle>
-    <circle cx="404.4" cy="224" r="3.2" fill="#4fbcff"><title>2026-02-27: 9</title></circle>
+    <circle cx="404.4" cy="224" r="2.6" fill="#a78bfa"><title>2026-02-27: 7</title></circle>
     <circle cx="404.4" cy="245" r="1.6" fill="#1a2a4a"><title>2026-02-28: 0</title></circle>
     <circle cx="404.4" cy="266" r="1.6" fill="#1a2a4a"><title>2026-03-01: 0</title></circle>
     <circle cx="425.6" cy="140" r="1.6" fill="#1a2a4a"><title>2026-03-02: 0</title></circle>
-    <circle cx="425.6" cy="161" r="2.6" fill="#a78bfa"><title>2026-03-03: 2</title></circle>
-    <circle cx="425.6" cy="182" r="2.6" fill="#a78bfa"><title>2026-03-04: 5</title></circle>
+    <circle cx="425.6" cy="161" r="1.6" fill="#1a2a4a"><title>2026-03-03: 0</title></circle>
+    <circle cx="425.6" cy="182" r="1.6" fill="#1a2a4a"><title>2026-03-04: 0</title></circle>
     <circle cx="425.6" cy="203" r="1.6" fill="#1a2a4a"><title>2026-03-05: 0</title></circle>
     <circle cx="425.6" cy="224" r="2.6" fill="#a78bfa"><title>2026-03-06: 1</title></circle>
     <circle cx="425.6" cy="245" r="1.6" fill="#1a2a4a"><title>2026-03-07: 0</title></circle>
@@ -256,7 +246,7 @@
     <circle cx="446.8" cy="140" r="1.6" fill="#1a2a4a"><title>2026-03-09: 0</title></circle>
     <circle cx="446.8" cy="161" r="3.8" fill="#7ddbff"><title>2026-03-10: 24</title></circle>
     <circle cx="446.8" cy="182" r="1.6" fill="#1a2a4a"><title>2026-03-11: 0</title></circle>
-    <circle cx="446.8" cy="203" r="2.6" fill="#a78bfa"><title>2026-03-12: 3</title></circle>
+    <circle cx="446.8" cy="203" r="1.6" fill="#1a2a4a"><title>2026-03-12: 0</title></circle>
     <circle cx="446.8" cy="224" r="2.6" fill="#a78bfa"><title>2026-03-13: 4</title></circle>
     <circle cx="446.8" cy="245" r="2.6" fill="#a78bfa"><title>2026-03-14: 1</title></circle>
     <circle cx="446.8" cy="266" r="2.6" fill="#a78bfa"><title>2026-03-15: 6</title></circle>
@@ -264,11 +254,11 @@
     <circle cx="468.0" cy="161" r="1.6" fill="#1a2a4a"><title>2026-03-17: 0</title></circle>
     <circle cx="468.0" cy="182" r="2.6" fill="#a78bfa"><title>2026-03-18: 2</title></circle>
     <circle cx="468.0" cy="203" r="2.6" fill="#a78bfa"><title>2026-03-19: 6</title></circle>
-    <circle cx="468.0" cy="224" r="2.6" fill="#a78bfa"><title>2026-03-20: 3</title></circle>
+    <circle cx="468.0" cy="224" r="2.6" fill="#a78bfa"><title>2026-03-20: 2</title></circle>
     <circle cx="468.0" cy="245" r="2.6" fill="#a78bfa"><title>2026-03-21: 2</title></circle>
-    <circle cx="468.0" cy="266" r="3.2" fill="#4fbcff"><title>2026-03-22: 12</title></circle>
-    <circle cx="489.2" cy="140" r="2.6" fill="#a78bfa"><title>2026-03-23: 8</title></circle>
-    <circle cx="489.2" cy="161" r="3.2" fill="#4fbcff"><title>2026-03-24: 12</title></circle>
+    <circle cx="468.0" cy="266" r="3.2" fill="#4fbcff"><title>2026-03-22: 11</title></circle>
+    <circle cx="489.2" cy="140" r="2.6" fill="#a78bfa"><title>2026-03-23: 7</title></circle>
+    <circle cx="489.2" cy="161" r="3.2" fill="#4fbcff"><title>2026-03-24: 9</title></circle>
     <circle cx="489.2" cy="182" r="2.6" fill="#a78bfa"><title>2026-03-25: 7</title></circle>
     <circle cx="489.2" cy="203" r="2.6" fill="#a78bfa"><title>2026-03-26: 1</title></circle>
     <circle cx="489.2" cy="224" r="2.6" fill="#a78bfa"><title>2026-03-27: 3</title></circle>
@@ -278,16 +268,16 @@
     <circle cx="510.4" cy="161" r="1.6" fill="#1a2a4a"><title>2026-03-31: 0</title></circle>
     <circle cx="510.4" cy="182" r="2.6" fill="#a78bfa"><title>2026-04-01: 2</title></circle>
     <circle cx="510.4" cy="203" r="1.6" fill="#1a2a4a"><title>2026-04-02: 0</title></circle>
-    <circle cx="510.4" cy="224" r="3.2" fill="#4fbcff"><title>2026-04-03: 9</title></circle>
+    <circle cx="510.4" cy="224" r="2.6" fill="#a78bfa"><title>2026-04-03: 8</title></circle>
     <circle cx="510.4" cy="245" r="1.6" fill="#1a2a4a"><title>2026-04-04: 0</title></circle>
     <circle cx="510.4" cy="266" r="1.6" fill="#1a2a4a"><title>2026-04-05: 0</title></circle>
-    <circle cx="531.6" cy="140" r="2.6" fill="#a78bfa"><title>2026-04-06: 5</title></circle>
-    <circle cx="531.6" cy="161" r="2.6" fill="#a78bfa"><title>2026-04-07: 1</title></circle>
-    <circle cx="531.6" cy="182" r="2.6" fill="#a78bfa"><title>2026-04-08: 2</title></circle>
+    <circle cx="531.6" cy="140" r="2.6" fill="#a78bfa"><title>2026-04-06: 3</title></circle>
+    <circle cx="531.6" cy="161" r="1.6" fill="#1a2a4a"><title>2026-04-07: 0</title></circle>
+    <circle cx="531.6" cy="182" r="1.6" fill="#1a2a4a"><title>2026-04-08: 0</title></circle>
     <circle cx="531.6" cy="203" r="1.6" fill="#1a2a4a"><title>2026-04-09: 0</title></circle>
     <circle cx="531.6" cy="224" r="1.6" fill="#1a2a4a"><title>2026-04-10: 0</title></circle>
     <circle cx="531.6" cy="245" r="1.6" fill="#1a2a4a"><title>2026-04-11: 0</title></circle>
-    <circle cx="531.6" cy="266" r="2.6" fill="#a78bfa"><title>2026-04-12: 1</title></circle>
+    <circle cx="531.6" cy="266" r="1.6" fill="#1a2a4a"><title>2026-04-12: 0</title></circle>
     <circle cx="552.8" cy="140" r="1.6" fill="#1a2a4a"><title>2026-04-13: 0</title></circle>
     <circle cx="552.8" cy="161" r="1.6" fill="#1a2a4a"><title>2026-04-14: 0</title></circle>
     <circle cx="552.8" cy="182" r="1.6" fill="#1a2a4a"><title>2026-04-15: 0</title></circle>
@@ -481,7 +471,7 @@
     <circle cx="1125.2" cy="161" r="1.6" fill="#1a2a4a"><title>2026-10-20: 0</title></circle>
     <circle cx="1125.2" cy="182" r="1.6" fill="#1a2a4a"><title>2026-10-21: 0</title></circle>
     <circle cx="1125.2" cy="203" r="1.6" fill="#1a2a4a"><title>2026-10-22: 0</title></circle>
-    <circle cx="1125.2" cy="224" r="2.6" fill="#a78bfa"><title>2026-10-23: 1</title></circle>
+    <circle cx="1125.2" cy="224" r="1.6" fill="#1a2a4a"><title>2026-10-23: 0</title></circle>
     <circle cx="1125.2" cy="245" r="1.6" fill="#1a2a4a"><title>2026-10-24: 0</title></circle>
     <circle cx="1125.2" cy="266" r="2.6" fill="#a78bfa"><title>2026-10-25: 1</title></circle>
     <circle cx="1146.4" cy="140" r="1.6" fill="#1a2a4a"><title>2026-10-26: 0</title></circle>
@@ -491,7 +481,7 @@
     <circle cx="1146.4" cy="224" r="11" fill="#4fbcff" opacity=".18"/>
     <circle cx="1146.4" cy="224" r="4.6" fill="#fef3c7"><title>2026-10-30: 27</title></circle>
     <circle cx="1146.4" cy="245" r="3.2" fill="#4fbcff"><title>2026-10-31: 12</title></circle>
-    <circle cx="1146.4" cy="266" r="2.6" fill="#a78bfa"><title>2026-11-01: 3</title></circle>
+    <circle cx="1146.4" cy="266" r="3.2" fill="#4fbcff"><title>2026-11-01: 12</title></circle>
     <circle cx="1146.4" cy="266" r="4" fill="none" stroke="#fef3c7" stroke-width="1"><animate attributeName="r" values="4;12;4" dur="2.4s" repeatCount="indefinite"/><animate attributeName="opacity" values="1;0;1" dur="2.4s" repeatCount="indefinite"/></circle>
   </g>
 </svg>

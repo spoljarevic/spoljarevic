@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 40" width="1200" height="40" role="img" aria-labelledby="t">
+  <title id="t">SOURCE ON CODEBERG · OTHER FORGES CARRY MIRRORS · MIT-0</title>
+  <defs><radialGradient id="h" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#4fbcff" stop-opacity="0.85"/><stop offset="0.4" stop-color="#4fbcff" stop-opacity="0.18"/><stop offset="1" stop-color="#4fbcff" stop-opacity="0"/></radialGradient></defs>
+  <rect width="1200" height="40" fill="#050810"/>
+  <g font-family="'JetBrains Mono', 'IBM Plex Mono', ui-monospace, monospace" font-size="9" letter-spacing="3">
+    <circle cx="34" cy="17" r="3.5" fill="#4ade80"><animate attributeName="opacity" values="0.4;1;0.4" dur="1.6s" repeatCount="indefinite"/></circle>
+    <text x="48" y="20" fill="#a5b4cf">SOURCE ON CODEBERG · OTHER FORGES CARRY MIRRORS · MIT-0</text>
+  </g>
+</svg>
