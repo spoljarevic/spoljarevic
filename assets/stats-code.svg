@@ -6,33 +6,33 @@
   <g font-family="'JetBrains Mono', 'IBM Plex Mono', ui-monospace, monospace" fill="#a5b4cf">
     <text x="32" y="40" font-size="10" letter-spacing="4" fill="#4fbcff">CODEBASE/LINES</text>
     <text x="32" y="58" font-size="10" letter-spacing="4">NON-EMPTY LINES ACROSS PUBLIC REPOS</text>
-    <rect x="32.0" y="82" width="243.4" height="6" fill="#4fbcff"/>
-    <rect x="277.4" y="82" width="53.2" height="6" fill="#a78bfa"/>
-    <rect x="332.6" y="82" width="48.2" height="6" fill="#fef3c7"/>
-    <rect x="382.8" y="82" width="43.4" height="6" fill="#7ddbff"/>
-    <rect x="428.2" y="82" width="38.3" height="6" fill="#c4b5fd"/>
-    <rect x="468.5" y="82" width="25.0" height="6" fill="#4ade80"/>
-    <rect x="495.5" y="82" width="62.5" height="6" fill="#1a2a4a"/>
+    <rect x="32.0" y="82" width="238.6" height="6" fill="#4fbcff"/>
+    <rect x="272.6" y="82" width="52.1" height="6" fill="#a78bfa"/>
+    <rect x="326.8" y="82" width="47.2" height="6" fill="#fef3c7"/>
+    <rect x="376.0" y="82" width="42.5" height="6" fill="#7ddbff"/>
+    <rect x="420.5" y="82" width="37.5" height="6" fill="#c4b5fd"/>
+    <rect x="460.0" y="82" width="29.0" height="6" fill="#4ade80"/>
+    <rect x="490.9" y="82" width="67.1" height="6" fill="#1a2a4a"/>
     <circle cx="35" cy="114" r="3.4" fill="#4fbcff"/>
     <text x="48" y="118" font-size="11">yaml</text>
-    <text x="268" y="118" font-size="11" fill="#fef3c7" text-anchor="end">47%</text>
+    <text x="268" y="118" font-size="11" fill="#fef3c7" text-anchor="end">46%</text>
     <circle cx="305" cy="114" r="3.4" fill="#a78bfa"/>
     <text x="318" y="118" font-size="11">shell</text>
-    <text x="538" y="118" font-size="11" fill="#fef3c7" text-anchor="end">11%</text>
+    <text x="538" y="118" font-size="11" fill="#fef3c7" text-anchor="end">10%</text>
     <circle cx="35" cy="138" r="3.4" fill="#fef3c7"/>
     <text x="48" y="142" font-size="11">config</text>
-    <text x="268" y="142" font-size="11" fill="#fef3c7" text-anchor="end">10%</text>
+    <text x="268" y="142" font-size="11" fill="#fef3c7" text-anchor="end">9%</text>
     <circle cx="305" cy="138" r="3.4" fill="#7ddbff"/>
     <text x="318" y="142" font-size="11">nushell</text>
-    <text x="538" y="142" font-size="11" fill="#fef3c7" text-anchor="end">9%</text>
+    <text x="538" y="142" font-size="11" fill="#fef3c7" text-anchor="end">8%</text>
     <circle cx="35" cy="162" r="3.4" fill="#c4b5fd"/>
     <text x="48" y="166" font-size="11">quadlet</text>
     <text x="268" y="166" font-size="11" fill="#fef3c7" text-anchor="end">8%</text>
     <circle cx="305" cy="162" r="3.4" fill="#4ade80"/>
-    <text x="318" y="166" font-size="11">css</text>
-    <text x="538" y="166" font-size="11" fill="#fef3c7" text-anchor="end">5%</text>
+    <text x="318" y="166" font-size="11">python</text>
+    <text x="538" y="166" font-size="11" fill="#fef3c7" text-anchor="end">6%</text>
     <line x1="32" y1="212" x2="558" y2="212" stroke="#1a2a4a" stroke-width="0.6"/>
-    <text x="32" y="254" font-size="24" font-weight="700" fill="#fef3c7">13,895</text>
+    <text x="32" y="254" font-size="24" font-weight="700" fill="#fef3c7">14,173</text>
     <text x="32" y="274" font-size="9" letter-spacing="3">LINES</text>
     <text x="212" y="254" font-size="24" font-weight="700" fill="#fef3c7">69</text>
     <text x="212" y="274" font-size="9" letter-spacing="3">QUADLET UNITS</text>
