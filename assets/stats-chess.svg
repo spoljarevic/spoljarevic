@@ -1,42 +1,47 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 590 320" width="590" height="320" role="img" aria-labelledby="t">
-  <title id="t">chess · lichess — @Spoljarevic</title>
-  <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0b1020"/><stop offset="1" stop-color="#111a2e"/></linearGradient>
-  </defs>
-  <rect x=".5" y=".5" width="589" height="319" rx="12" fill="url(#bg)" stroke="#2b3a5c"/>
-  <g font-family="ui-monospace, 'JetBrains Mono', 'Fira Code', Menlo, Consolas, monospace">
-    <text x="28" y="40" font-size="15" fill="#4fd1c5" letter-spacing="2">// chess · lichess</text>
-    <text x="562" y="40" font-size="12" fill="#8b9bb4" text-anchor="end">@Spoljarevic</text>
-    <text x="28" y="83" font-size="12" fill="#8b9bb4">classical</text>
-    <rect x="160" y="74" width="290" height="10" rx="5" fill="#2b3a5c" opacity=".6"/>
-    <rect x="160" y="74" width="134.0" height="10" rx="5" fill="#3d5a80"/>
-    <text x="562" y="83" font-size="13" fill="#e6edf7" text-anchor="end">1447</text>
-    <text x="28" y="109" font-size="12" fill="#8b9bb4">rapid</text>
-    <rect x="160" y="100" width="290" height="10" rx="5" fill="#2b3a5c" opacity=".6"/>
-    <rect x="160" y="100" width="125.9" height="10" rx="5" fill="#3d5a80"/>
-    <text x="562" y="109" font-size="13" fill="#e6edf7" text-anchor="end">1408</text>
-    <text x="28" y="135" font-size="12" fill="#8b9bb4">blitz</text>
-    <rect x="160" y="126" width="290" height="10" rx="5" fill="#2b3a5c" opacity=".6"/>
-    <rect x="160" y="126" width="78.1" height="10" rx="5" fill="#3d5a80"/>
-    <text x="562" y="135" font-size="13" fill="#e6edf7" text-anchor="end">1177</text>
-    <text x="28" y="161" font-size="12" fill="#8b9bb4">bullet</text>
-    <rect x="160" y="152" width="290" height="10" rx="5" fill="#2b3a5c" opacity=".6"/>
-    <rect x="160" y="152" width="124.7" height="10" rx="5" fill="#3d5a80"/>
-    <text x="562" y="161" font-size="13" fill="#e6edf7" text-anchor="end">1402</text>
-    <text x="28" y="187" font-size="12" fill="#8b9bb4">correspondence</text>
-    <rect x="160" y="178" width="290" height="10" rx="5" fill="#2b3a5c" opacity=".6"/>
-    <rect x="160" y="178" width="192.2" height="10" rx="5" fill="#4fd1c5"/>
-    <text x="562" y="187" font-size="13" fill="#e6edf7" text-anchor="end">1728</text>
-    <text x="28" y="213" font-size="12" fill="#8b9bb4">puzzle</text>
-    <rect x="160" y="204" width="290" height="10" rx="5" fill="#2b3a5c" opacity=".6"/>
-    <rect x="160" y="204" width="166.5" height="10" rx="5" fill="#7aa2f7"/>
-    <text x="562" y="213" font-size="13" fill="#e6edf7" text-anchor="end">1604</text>
-    <line x1="28" y1="230" x2="562" y2="230" stroke="#2b3a5c"/>
-    <text x="28" y="268" font-size="26" font-weight="700" fill="#e6edf7">466</text>
-    <text x="28" y="288" font-size="11" fill="#8b9bb4" letter-spacing="1">GAMES</text>
-    <text x="213" y="268" font-size="26" font-weight="700" fill="#4fd1c5">51%</text>
-    <text x="213" y="288" font-size="11" fill="#8b9bb4" letter-spacing="1">WIN RATE</text>
-    <text x="398" y="268" font-size="26" font-weight="700" fill="#7aa2f7">1728</text>
-    <text x="398" y="288" font-size="11" fill="#8b9bb4" letter-spacing="1">BEST RATING</text>
+  <title id="t">CHESS/LICHESS</title>
+  <rect width="590" height="320" fill="#050810"/>
+  <g stroke="#0e1a30" stroke-width="0.5"><line x1="80" y1="0" x2="80" y2="320"/><line x1="200" y1="0" x2="200" y2="320"/><line x1="320" y1="0" x2="320" y2="320"/><line x1="440" y1="0" x2="440" y2="320"/><line x1="560" y1="0" x2="560" y2="320"/><line x1="0" y1="60" x2="590" y2="60"/><line x1="0" y1="140" x2="590" y2="140"/><line x1="0" y1="220" x2="590" y2="220"/><line x1="0" y1="300" x2="590" y2="300"/></g>
+  <rect x=".5" y=".5" width="589" height="319" fill="none" stroke="#1a2a4a" stroke-width="0.8"/>
+  <g font-family="'JetBrains Mono', 'IBM Plex Mono', ui-monospace, monospace" fill="#a5b4cf">
+    <text x="32" y="40" font-size="10" letter-spacing="4" fill="#4fbcff">CHESS/LICHESS</text>
+    <text x="32" y="58" font-size="10" letter-spacing="4">@SPOLJAREVIC · RATINGS</text>
+    <text x="32" y="91" font-size="11">classical</text>
+    <line x1="170" y1="87" x2="470" y2="87" stroke="#1a2a4a" stroke-width="1"/>
+    <line x1="170" y1="87" x2="308.6" y2="87" stroke="#4fbcff" stroke-width="2"/>
+    <circle cx="308.6" cy="87" r="3.2" fill="#4fbcff"/>
+    <text x="558" y="91" font-size="11" fill="#fef3c7" text-anchor="end">1447</text>
+    <text x="32" y="112" font-size="11">rapid</text>
+    <line x1="170" y1="108" x2="470" y2="108" stroke="#1a2a4a" stroke-width="1"/>
+    <line x1="170" y1="108" x2="300.3" y2="108" stroke="#4fbcff" stroke-width="2"/>
+    <circle cx="300.3" cy="108" r="3.2" fill="#4fbcff"/>
+    <text x="558" y="112" font-size="11" fill="#fef3c7" text-anchor="end">1408</text>
+    <text x="32" y="133" font-size="11">blitz</text>
+    <line x1="170" y1="129" x2="470" y2="129" stroke="#1a2a4a" stroke-width="1"/>
+    <line x1="170" y1="129" x2="250.8" y2="129" stroke="#4fbcff" stroke-width="2"/>
+    <circle cx="250.8" cy="129" r="3.2" fill="#4fbcff"/>
+    <text x="558" y="133" font-size="11" fill="#fef3c7" text-anchor="end">1177</text>
+    <text x="32" y="154" font-size="11">bullet</text>
+    <line x1="170" y1="150" x2="470" y2="150" stroke="#1a2a4a" stroke-width="1"/>
+    <line x1="170" y1="150" x2="299.0" y2="150" stroke="#4fbcff" stroke-width="2"/>
+    <circle cx="299.0" cy="150" r="3.2" fill="#4fbcff"/>
+    <text x="558" y="154" font-size="11" fill="#fef3c7" text-anchor="end">1402</text>
+    <text x="32" y="175" font-size="11">correspondence</text>
+    <line x1="170" y1="171" x2="470" y2="171" stroke="#1a2a4a" stroke-width="1"/>
+    <line x1="170" y1="171" x2="368.9" y2="171" stroke="#fef3c7" stroke-width="2"/>
+    <circle cx="368.9" cy="171" r="3.2" fill="#fef3c7"/>
+    <text x="558" y="175" font-size="11" fill="#fef3c7" text-anchor="end">1728</text>
+    <text x="32" y="196" font-size="11">puzzle</text>
+    <line x1="170" y1="192" x2="470" y2="192" stroke="#1a2a4a" stroke-width="1"/>
+    <line x1="170" y1="192" x2="342.3" y2="192" stroke="#a78bfa" stroke-width="2"/>
+    <circle cx="342.3" cy="192" r="3.2" fill="#a78bfa"/>
+    <text x="558" y="196" font-size="11" fill="#fef3c7" text-anchor="end">1604</text>
+    <line x1="32" y1="212" x2="558" y2="212" stroke="#1a2a4a" stroke-width="0.6"/>
+    <text x="32" y="254" font-size="24" font-weight="700" fill="#fef3c7">466</text>
+    <text x="32" y="274" font-size="9" letter-spacing="3">GAMES</text>
+    <text x="212" y="254" font-size="24" font-weight="700" fill="#fef3c7">51%</text>
+    <text x="212" y="274" font-size="9" letter-spacing="3">WIN RATE</text>
+    <text x="392" y="254" font-size="24" font-weight="700" fill="#fef3c7">1728</text>
+    <text x="392" y="274" font-size="9" letter-spacing="3">BEST RATING</text>
   </g>
 </svg>

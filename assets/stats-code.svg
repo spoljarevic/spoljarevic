@@ -1,46 +1,42 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 590 320" width="590" height="320" role="img" aria-labelledby="t">
-  <title id="t">codebase · lines by language</title>
-  <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0b1020"/><stop offset="1" stop-color="#111a2e"/></linearGradient>
-  </defs>
-  <rect x=".5" y=".5" width="589" height="319" rx="12" fill="url(#bg)" stroke="#2b3a5c"/>
-  <g font-family="ui-monospace, 'JetBrains Mono', 'Fira Code', Menlo, Consolas, monospace">
-    <text x="28" y="40" font-size="15" fill="#4fd1c5" letter-spacing="2">// codebase · lines by language</text>
-    <rect x="28.0" y="62" width="238.8" height="10" fill="#cb4b4b"/>
-    <rect x="266.8" y="62" width="52.0" height="10" fill="#89e051"/>
-    <rect x="318.8" y="62" width="50.0" height="10" fill="#d1dbe0"/>
-    <rect x="368.8" y="62" width="45.2" height="10" fill="#4e9906"/>
-    <rect x="413.9" y="62" width="40.2" height="10" fill="#892ca0"/>
-    <rect x="454.1" y="62" width="38.0" height="10" fill="#663399"/>
-    <rect x="492.1" y="62" width="21.2" height="10" fill="#3572a5"/>
-    <rect x="513.3" y="62" width="48.7" height="10" fill="#2b3a5c"/>
-    <circle cx="33" cy="98" r="5" fill="#cb4b4b"/>
-    <text x="46" y="102" font-size="13" fill="#e6edf7">YAML</text>
-    <text x="258" y="102" font-size="12" fill="#8b9bb4" text-anchor="end">6,332 · 45%</text>
-    <circle cx="303" cy="98" r="5" fill="#89e051"/>
-    <text x="316" y="102" font-size="13" fill="#e6edf7">Shell</text>
-    <text x="528" y="102" font-size="12" fill="#8b9bb4" text-anchor="end">1,378 · 10%</text>
-    <circle cx="33" cy="128" r="5" fill="#d1dbe0"/>
-    <text x="46" y="132" font-size="13" fill="#e6edf7">Config</text>
-    <text x="258" y="132" font-size="12" fill="#8b9bb4" text-anchor="end">1,326 · 9%</text>
-    <circle cx="303" cy="128" r="5" fill="#4e9906"/>
-    <text x="316" y="132" font-size="13" fill="#e6edf7">Nushell</text>
-    <text x="528" y="132" font-size="12" fill="#8b9bb4" text-anchor="end">1,198 · 8%</text>
-    <circle cx="33" cy="158" r="5" fill="#892ca0"/>
-    <text x="46" y="162" font-size="13" fill="#e6edf7">Quadlet</text>
-    <text x="258" y="162" font-size="12" fill="#8b9bb4" text-anchor="end">1,065 · 8%</text>
-    <circle cx="303" cy="158" r="5" fill="#663399"/>
-    <text x="316" y="162" font-size="13" fill="#e6edf7">CSS</text>
-    <text x="528" y="162" font-size="12" fill="#8b9bb4" text-anchor="end">1,008 · 7%</text>
-    <circle cx="33" cy="188" r="5" fill="#3572a5"/>
-    <text x="46" y="192" font-size="13" fill="#e6edf7">Python</text>
-    <text x="258" y="192" font-size="12" fill="#8b9bb4" text-anchor="end">562 · 4%</text>
-    <line x1="28" y1="230" x2="562" y2="230" stroke="#2b3a5c"/>
-    <text x="28" y="268" font-size="26" font-weight="700" fill="#e6edf7">14,160</text>
-    <text x="28" y="288" font-size="11" fill="#8b9bb4" letter-spacing="1">LINES</text>
-    <text x="213" y="268" font-size="26" font-weight="700" fill="#4fd1c5">69</text>
-    <text x="213" y="288" font-size="11" fill="#8b9bb4" letter-spacing="1">QUADLET UNITS</text>
-    <text x="398" y="268" font-size="26" font-weight="700" fill="#7aa2f7">577</text>
-    <text x="398" y="288" font-size="11" fill="#8b9bb4" letter-spacing="1">ANSIBLE TASKS</text>
+  <title id="t">CODEBASE/LINES</title>
+  <rect width="590" height="320" fill="#050810"/>
+  <g stroke="#0e1a30" stroke-width="0.5"><line x1="80" y1="0" x2="80" y2="320"/><line x1="200" y1="0" x2="200" y2="320"/><line x1="320" y1="0" x2="320" y2="320"/><line x1="440" y1="0" x2="440" y2="320"/><line x1="560" y1="0" x2="560" y2="320"/><line x1="0" y1="60" x2="590" y2="60"/><line x1="0" y1="140" x2="590" y2="140"/><line x1="0" y1="220" x2="590" y2="220"/><line x1="0" y1="300" x2="590" y2="300"/></g>
+  <rect x=".5" y=".5" width="589" height="319" fill="none" stroke="#1a2a4a" stroke-width="0.8"/>
+  <g font-family="'JetBrains Mono', 'IBM Plex Mono', ui-monospace, monospace" fill="#a5b4cf">
+    <text x="32" y="40" font-size="10" letter-spacing="4" fill="#4fbcff">CODEBASE/LINES</text>
+    <text x="32" y="58" font-size="10" letter-spacing="4">NON-EMPTY LINES ACROSS PUBLIC REPOS</text>
+    <rect x="32.0" y="82" width="233.3" height="6" fill="#4fbcff"/>
+    <rect x="267.3" y="82" width="49.2" height="6" fill="#a78bfa"/>
+    <rect x="318.5" y="82" width="47.2" height="6" fill="#fef3c7"/>
+    <rect x="367.7" y="82" width="42.5" height="6" fill="#7ddbff"/>
+    <rect x="412.2" y="82" width="37.6" height="6" fill="#c4b5fd"/>
+    <rect x="451.7" y="82" width="35.4" height="6" fill="#4ade80"/>
+    <rect x="489.2" y="82" width="68.8" height="6" fill="#1a2a4a"/>
+    <circle cx="35" cy="114" r="3.4" fill="#4fbcff"/>
+    <text x="48" y="118" font-size="11">yaml</text>
+    <text x="268" y="118" font-size="11" fill="#fef3c7" text-anchor="end">45%</text>
+    <circle cx="305" cy="114" r="3.4" fill="#a78bfa"/>
+    <text x="318" y="118" font-size="11">shell</text>
+    <text x="538" y="118" font-size="11" fill="#fef3c7" text-anchor="end">10%</text>
+    <circle cx="35" cy="138" r="3.4" fill="#fef3c7"/>
+    <text x="48" y="142" font-size="11">config</text>
+    <text x="268" y="142" font-size="11" fill="#fef3c7" text-anchor="end">9%</text>
+    <circle cx="305" cy="138" r="3.4" fill="#7ddbff"/>
+    <text x="318" y="142" font-size="11">nushell</text>
+    <text x="538" y="142" font-size="11" fill="#fef3c7" text-anchor="end">8%</text>
+    <circle cx="35" cy="162" r="3.4" fill="#c4b5fd"/>
+    <text x="48" y="166" font-size="11">quadlet</text>
+    <text x="268" y="166" font-size="11" fill="#fef3c7" text-anchor="end">8%</text>
+    <circle cx="305" cy="162" r="3.4" fill="#4ade80"/>
+    <text x="318" y="166" font-size="11">css</text>
+    <text x="538" y="166" font-size="11" fill="#fef3c7" text-anchor="end">7%</text>
+    <line x1="32" y1="212" x2="558" y2="212" stroke="#1a2a4a" stroke-width="0.6"/>
+    <text x="32" y="254" font-size="24" font-weight="700" fill="#fef3c7">14,163</text>
+    <text x="32" y="274" font-size="9" letter-spacing="3">LINES</text>
+    <text x="212" y="254" font-size="24" font-weight="700" fill="#fef3c7">69</text>
+    <text x="212" y="274" font-size="9" letter-spacing="3">QUADLET UNITS</text>
+    <text x="392" y="254" font-size="24" font-weight="700" fill="#fef3c7">577</text>
+    <text x="392" y="274" font-size="9" letter-spacing="3">ANSIBLE TASKS</text>
   </g>
 </svg>

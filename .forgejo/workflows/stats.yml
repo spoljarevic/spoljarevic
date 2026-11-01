@@ -8,6 +8,7 @@ on:
     branches: [master]
     paths:
       - scripts/stats.py
+      - scripts/banner.svg.in
       - .forgejo/workflows/stats.yml
 
 jobs:
@@ -25,7 +26,7 @@ jobs:
 
       - name: Commit changes
         run: |
-          git add assets/stats-*.svg
+          git add assets/stats-*.svg assets/neural-pulse-lattice.svg
           if git diff --cached --quiet; then
             echo "no changes"; exit 0
           fi
