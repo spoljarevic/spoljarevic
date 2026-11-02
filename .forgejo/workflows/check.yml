@@ -9,7 +9,7 @@ on:
 
 jobs:
   lint:
-    runs-on: codeberg-small
+    runs-on: small
     container:
       image: node:22-bookworm
     steps:
@@ -35,7 +35,7 @@ jobs:
           exit $fail
 
   code:
-    runs-on: codeberg-small
+    runs-on: small
     container:
       image: python:3.13-slim
     steps:
@@ -67,7 +67,7 @@ jobs:
           exit $fail
 
   links:
-    runs-on: codeberg-small
+    runs-on: small
     container:
       image: node:22-bookworm
     steps:
