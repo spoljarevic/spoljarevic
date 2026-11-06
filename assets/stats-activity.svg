@@ -5,12 +5,12 @@
   <rect x=".5" y=".5" width="1199" height="299" fill="none" stroke="#1a2a4a" stroke-width="0.8"/>
   <g font-family="'JetBrains Mono', 'IBM Plex Mono', ui-monospace, monospace" fill="#a5b4cf">
     <text x="32" y="40" font-size="10" letter-spacing="4" fill="#4fbcff">ACTIVITY/LAST/12M</text>
-    <text x="32" y="58" font-size="10" letter-spacing="4">CODEBERG · UPDATED 2026-11-05</text>
-    <text x="488" y="48" font-size="24" font-weight="700" fill="#fef3c7">449</text>
+    <text x="32" y="58" font-size="10" letter-spacing="4">CODEBERG · UPDATED 2026-11-06</text>
+    <text x="488" y="48" font-size="24" font-weight="700" fill="#fef3c7">447</text>
     <text x="488" y="68" font-size="9" letter-spacing="3">CONTRIBUTIONS</text>
-    <text x="658" y="48" font-size="24" font-weight="700" fill="#fef3c7">88</text>
+    <text x="658" y="48" font-size="24" font-weight="700" fill="#fef3c7">89</text>
     <text x="658" y="68" font-size="9" letter-spacing="3">ACTIVE DAYS</text>
-    <text x="828" y="48" font-size="24" font-weight="700" fill="#fef3c7">6d</text>
+    <text x="828" y="48" font-size="24" font-weight="700" fill="#fef3c7">7d</text>
     <text x="828" y="68" font-size="9" letter-spacing="3">CURRENT STREAK</text>
     <text x="998" y="48" font-size="24" font-weight="700" fill="#fef3c7">11d</text>
     <text x="998" y="68" font-size="9" letter-spacing="3">LONGEST STREAK</text>
@@ -111,6 +111,7 @@
       <line x1="1125.2" y1="245" x2="1125.2" y2="266"/>
       <line x1="1146.4" y1="140" x2="1146.4" y2="161"/>
       <line x1="1146.4" y1="161" x2="1146.4" y2="182"/>
+      <line x1="1146.4" y1="182" x2="1146.4" y2="203"/>
     </g>
     <circle cx="44.0" cy="140" r="1.6" fill="#1a2a4a"><title>2025-11-03: 0</title></circle>
     <circle cx="44.0" cy="161" r="1.6" fill="#1a2a4a"><title>2025-11-04: 0</title></circle>
@@ -250,8 +251,8 @@
     <circle cx="446.8" cy="182" r="2.6" fill="#a78bfa"><title>2026-03-18: 2</title></circle>
     <circle cx="446.8" cy="203" r="2.6" fill="#a78bfa"><title>2026-03-19: 6</title></circle>
     <circle cx="446.8" cy="224" r="2.6" fill="#a78bfa"><title>2026-03-20: 2</title></circle>
-    <circle cx="446.8" cy="245" r="2.6" fill="#a78bfa"><title>2026-03-21: 2</title></circle>
-    <circle cx="446.8" cy="266" r="3.2" fill="#4fbcff"><title>2026-03-22: 11</title></circle>
+    <circle cx="446.8" cy="245" r="2.6" fill="#a78bfa"><title>2026-03-21: 1</title></circle>
+    <circle cx="446.8" cy="266" r="3.2" fill="#4fbcff"><title>2026-03-22: 9</title></circle>
     <circle cx="468.0" cy="140" r="2.6" fill="#a78bfa"><title>2026-03-23: 7</title></circle>
     <circle cx="468.0" cy="161" r="3.2" fill="#4fbcff"><title>2026-03-24: 9</title></circle>
     <circle cx="468.0" cy="182" r="2.6" fill="#a78bfa"><title>2026-03-25: 7</title></circle>
@@ -480,7 +481,8 @@
     <circle cx="1146.4" cy="140" r="3.2" fill="#4fbcff"><title>2026-11-02: 13</title></circle>
     <circle cx="1146.4" cy="161" r="2.6" fill="#a78bfa"><title>2026-11-03: 3</title></circle>
     <circle cx="1146.4" cy="182" r="2.6" fill="#a78bfa"><title>2026-11-04: 1</title></circle>
-    <circle cx="1146.4" cy="203" r="1.6" fill="#1a2a4a"><title>2026-11-05: 0</title></circle>
-    <circle cx="1146.4" cy="203" r="4" fill="none" stroke="#fef3c7" stroke-width="1"><animate attributeName="r" values="4;12;4" dur="2.4s" repeatCount="indefinite"/><animate attributeName="opacity" values="1;0;1" dur="2.4s" repeatCount="indefinite"/></circle>
+    <circle cx="1146.4" cy="203" r="2.6" fill="#a78bfa"><title>2026-11-05: 1</title></circle>
+    <circle cx="1146.4" cy="224" r="1.6" fill="#1a2a4a"><title>2026-11-06: 0</title></circle>
+    <circle cx="1146.4" cy="224" r="4" fill="none" stroke="#fef3c7" stroke-width="1"><animate attributeName="r" values="4;12;4" dur="2.4s" repeatCount="indefinite"/><animate attributeName="opacity" values="1;0;1" dur="2.4s" repeatCount="indefinite"/></circle>
   </g>
 </svg>
