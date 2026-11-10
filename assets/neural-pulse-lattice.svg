@@ -182,6 +182,6 @@
     <circle cx="6" cy="-3" r="3.5" fill="#4ade80">
       <animate attributeName="opacity" values="0.4;1;0.4" dur="1.6s" repeatCount="indefinite"/>
     </circle>
-    <text x="20" y="0" fill="#a5b4cf">LAST PUSH 2026-11-08 · STREAK 1D · TZ EUROPE/BERLIN</text>
+    <text x="20" y="0" fill="#a5b4cf">LAST PUSH 2026-11-08 · STREAK 0D · TZ EUROPE/BERLIN</text>
   </g>
 </svg>
