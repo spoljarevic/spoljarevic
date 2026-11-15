@@ -1,5 +1,7 @@
-# Profile content. scripts/stats.py renders it into assets/sections/*.svg and writes README.md.
+# Profile content. scripts/stats.py renders it into README.md.
 # Edit this file, not README.md.
+
+name = "Luca Matteo Špoljarević"
 
 [transmission]
 lead = "Linux sysadmin and DevOps engineer, half German, half Croatian."
@@ -45,7 +47,7 @@ docs = "https://kb.spoljarevic.sh/Other-Repos/Dotfiles/Neovim/"
 [stack]
 items = ["linux", "bash", "ansible", "podman", "git"]
 
-# group: endpoints with the same group share a row
+# group: endpoints with the same group share a line
 [[endpoints]]
 kind = "web"
 label = "spoljarevic.sh"
