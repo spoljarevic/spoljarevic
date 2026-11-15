@@ -1,4 +1,4 @@
-# Profile content. scripts/stats.py renders it into README.md.
+# Profile content. scripts/stats.py renders it into assets/sections/*.svg and the text view in README.md.
 # Edit this file, not README.md. Project text is Markdown; tags render as code pills.
 
 name = "Luca Matteo Špoljarević"
@@ -54,7 +54,7 @@ docs = "https://kb.spoljarevic.sh/Other-Repos/Dotfiles/Neovim/"
 [stack]
 items = ["linux", "bash", "ansible", "podman", "git"]
 
-# group: endpoints with the same group share a line
+# group: endpoints with the same group share a row (svg) or line (text view)
 [[endpoints]]
 kind = "web"
 label = "spoljarevic.sh"

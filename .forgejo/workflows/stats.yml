@@ -8,6 +8,7 @@ on:
     branches: [master]
     paths:
       - scripts/stats.py
+      - scripts/banner.svg.in
       - scripts/profile.toml
       - .forgejo/workflows/stats.yml
 
@@ -21,7 +22,7 @@ jobs:
         with:
           token: ${{ secrets.STATS_TOKEN || github.token }}
 
-      - name: Render README and activity heatmap
+      - name: Render banner, stat cards, sections and README
         run: python3 -I scripts/stats.py
 
       - name: Commit changes
