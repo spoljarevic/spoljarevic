@@ -121,7 +121,7 @@ My **Neovim** config and the rest of my desktop.
 14 public repos · last push 2026-11-15 · rendered 2026-11-15 from the Codeberg and Lichess APIs
 
 <details>
-<summary><strong>codebase</strong> · <code>13,253 lines · 69 quadlet units · 486 ansible tasks</code></summary>
+<summary><strong>codebase</strong> · <code>13,292 lines · 69 quadlet units · 486 ansible tasks</code></summary>
 
 Non-empty lines across my public repos.
 
@@ -133,7 +133,7 @@ Non-empty lines across my public repos.
 | nushell | 1,198 | 9% |
 | quadlet | 1,065 | 8% |
 | css | 713 | 5% |
-| other | 1,733 | 13% |
+| other | 1,772 | 13% |
 
 </details>
 
