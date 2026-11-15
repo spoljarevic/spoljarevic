@@ -53,19 +53,19 @@ Ansible role hardening RHEL and Rocky Linux
 14 public repos · last push 2026-11-15 · rendered 2026-11-15 from the Codeberg and Lichess APIs
 
 <details>
-<summary><strong>codebase</strong> · <code>13,452 lines · 69 quadlet units · 486 ansible tasks</code></summary>
+<summary><strong>codebase</strong> · <code>13,253 lines · 69 quadlet units · 486 ansible tasks</code></summary>
 
 Non-empty lines across my public repos.
 
 | language | lines | share |
 |---|---:|---:|
-| yaml | 5,696 | 42% |
+| yaml | 5,695 | 43% |
 | shell | 1,518 | 11% |
 | config | 1,331 | 10% |
 | nushell | 1,198 | 9% |
 | quadlet | 1,065 | 8% |
-| python | 837 | 6% |
-| other | 1,807 | 13% |
+| css | 713 | 5% |
+| other | 1,733 | 13% |
 
 </details>
 
