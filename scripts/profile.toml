@@ -1,5 +1,5 @@
 # Profile content. scripts/stats.py renders it into README.md.
-# Edit this file, not README.md.
+# Edit this file, not README.md. Project text is Markdown; tags render as code pills.
 
 name = "Luca Matteo Špoljarević"
 
@@ -12,36 +12,43 @@ body = [
 
 [[nodes]]
 repo = "Arch_Linux_Post-Install_Automation"
-text = "reworked post-install playbook, currently in the testing branch"
+text = "Reworked post-install playbook, currently in the **testing branch**."
+tags = ["ansible", "archlinux", "semaphore"]
 docs = "https://kb.spoljarevic.sh/Big-Projects/Arch-Linux-Post-Install-Automation/"
 
 [[nodes]]
 repo = "Grafana-Server-Monitoring"
-text = "rootless Grafana monitoring stack as Podman Quadlets"
+text = "Rootless Grafana monitoring stack as **Podman Quadlets**."
+tags = ["grafana", "podman", "quadlet"]
 
 [[nodes]]
 repo = "ansible-galaxy-rhel-based-hardening"
-text = "Ansible role hardening RHEL and Rocky Linux"
+text = "Ansible role hardening **RHEL and Rocky Linux**."
+tags = ["ansible", "rhel", "hardening"]
 
 [[archive]]
 repo = "Zammad-Podman-Quadlets"
-text = "Quadlets for the Zammad ticket system"
+text = "Quadlets for the **Zammad** ticket system."
+tags = ["zammad", "podman", "quadlet"]
 docs = "https://kb.spoljarevic.sh/Big-Projects/Zammad-Podman-Quadlets/"
 
 [[archive]]
 repo = "ansible-galaxy-archlinux-repomanager"
-text = "Galaxy role adding the CachyOS and BlackArch repos to vanilla Arch"
+text = "Galaxy role adding the **CachyOS and BlackArch** repos to vanilla Arch."
+tags = ["ansible", "galaxy", "archlinux"]
 docs = "https://galaxy.ansible.com/ui/standalone/roles/spoljarevic/archlinux-repomanager/documentation/"
 
 [[archive]]
 repo = "FreePBX-17-Container"
-text = "containerized FreePBX 17 setup"
+text = "Containerized **FreePBX 17** setup."
+tags = ["freepbx", "podman", "voip"]
 docs = "https://kb.spoljarevic.sh/Big-Projects/FreePBX-17-Docker-Setup/"
 
 [[archive]]
 repo = "Dotfiles"
 url = "https://codeberg.org/Spoljarevic/Dotfiles/src/branch/master/nvim"
-text = "my Neovim config and the rest of my desktop"
+text = "My **Neovim** config and the rest of my desktop."
+tags = ["neovim", "hyprland", "nushell"]
 docs = "https://kb.spoljarevic.sh/Other-Repos/Dotfiles/Neovim/"
 
 [stack]

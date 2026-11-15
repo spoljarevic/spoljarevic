@@ -2,47 +2,115 @@
 
 # Luca Matteo Špoljarević
 
-**Linux sysadmin and DevOps engineer, half German, half Croatian.**
+**Linux sysadmin and DevOps engineer, half German, half Croatian.**\
 I automate infrastructure with Ansible and run it as rootless Podman containers. Privacy-centric, FOSS by default, founder of Who2Industries; if I can self-host it, I will.
 
 `linux` · `bash` · `ansible` · `podman` · `git`
 
-## Currently active
+## Projects
+
+<sub>3 ACTIVE · 4 ARCHIVED · ONE CLICK TO EXPAND</sub>
 
 <details open>
-<summary><strong>Arch_Linux_Post-Install_Automation</strong> · <code>python · upd 2026-11-09</code></summary>
+<summary><strong>Arch_Linux_Post-Install_Automation</strong> · <code>ansible</code> <code>archlinux</code> <code>semaphore</code> · 🟢 active</summary>
 
-reworked post-install playbook, currently in the testing branch
+Reworked post-install playbook, currently in the **testing branch**.
+
+| commits · last 12 weeks | `·········█▂·` |
+|---|---:|
+| commits total | 53 |
+| last commit | 2026-11-08 |
+| language | python |
 
 **Repo:** [Spoljarevic/Arch_Linux_Post-Install_Automation](https://codeberg.org/Spoljarevic/Arch_Linux_Post-Install_Automation) · **Docs:** [kb.spoljarevic.sh/Big-Projects/Arch-Linux-Post-Install-Automation](https://kb.spoljarevic.sh/Big-Projects/Arch-Linux-Post-Install-Automation/)
 
 </details>
 
 <details>
-<summary><strong>Grafana-Server-Monitoring</strong> · <code>shell · upd 2026-11-02</code></summary>
+<summary><strong>Grafana-Server-Monitoring</strong> · <code>grafana</code> <code>podman</code> <code>quadlet</code> · 🟢 active</summary>
 
-rootless Grafana monitoring stack as Podman Quadlets
+Rootless Grafana monitoring stack as **Podman Quadlets**.
+
+| commits · last 12 weeks | `···█·····▂▂·` |
+|---|---:|
+| commits total | 7 |
+| last commit | 2026-11-02 |
+| language | shell |
 
 **Repo:** [Spoljarevic/Grafana-Server-Monitoring](https://codeberg.org/Spoljarevic/Grafana-Server-Monitoring)
 
 </details>
 
 <details>
-<summary><strong>ansible-galaxy-rhel-based-hardening</strong> · <code>shell · upd 2026-11-02</code></summary>
+<summary><strong>ansible-galaxy-rhel-based-hardening</strong> · <code>ansible</code> <code>rhel</code> <code>hardening</code> · 🟢 active</summary>
 
-Ansible role hardening RHEL and Rocky Linux
+Ansible role hardening **RHEL and Rocky Linux**.
+
+| commits · last 12 weeks | `█········█▄·` |
+|---|---:|
+| commits total | 5 |
+| last commit | 2026-11-02 |
+| language | shell |
 
 **Repo:** [Spoljarevic/ansible-galaxy-rhel-based-hardening](https://codeberg.org/Spoljarevic/ansible-galaxy-rhel-based-hardening)
 
 </details>
 
 <details>
-<summary><strong>archived</strong> · <em>4 shipped builds</em></summary>
+<summary><strong>Zammad-Podman-Quadlets</strong> · <code>zammad</code> <code>podman</code> <code>quadlet</code> · <em>archived</em></summary>
 
-- [Zammad-Podman-Quadlets](https://codeberg.org/Spoljarevic/Zammad-Podman-Quadlets) — Quadlets for the Zammad ticket system · [docs](https://kb.spoljarevic.sh/Big-Projects/Zammad-Podman-Quadlets/)
-- [ansible-galaxy-archlinux-repomanager](https://codeberg.org/Spoljarevic/ansible-galaxy-archlinux-repomanager) — Galaxy role adding the CachyOS and BlackArch repos to vanilla Arch · [docs](https://galaxy.ansible.com/ui/standalone/roles/spoljarevic/archlinux-repomanager/documentation/)
-- [FreePBX-17-Container](https://codeberg.org/Spoljarevic/FreePBX-17-Container) — containerized FreePBX 17 setup · [docs](https://kb.spoljarevic.sh/Big-Projects/FreePBX-17-Docker-Setup/)
-- [Dotfiles](https://codeberg.org/Spoljarevic/Dotfiles/src/branch/master/nvim) — my Neovim config and the rest of my desktop · [docs](https://kb.spoljarevic.sh/Other-Repos/Dotfiles/Neovim/)
+Quadlets for the **Zammad** ticket system.
+
+| commits · last 12 weeks | `·········▂█·` |
+|---|---:|
+| commits total | 11 |
+| last commit | 2026-11-08 |
+| language | shell |
+
+**Repo:** [Spoljarevic/Zammad-Podman-Quadlets](https://codeberg.org/Spoljarevic/Zammad-Podman-Quadlets) · **Docs:** [kb.spoljarevic.sh/Big-Projects/Zammad-Podman-Quadlets](https://kb.spoljarevic.sh/Big-Projects/Zammad-Podman-Quadlets/)
+
+</details>
+
+<details>
+<summary><strong>ansible-galaxy-archlinux-repomanager</strong> · <code>ansible</code> <code>galaxy</code> <code>archlinux</code> · <em>archived</em></summary>
+
+Galaxy role adding the **CachyOS and BlackArch** repos to vanilla Arch.
+
+| commits · last 12 weeks | `·········▄█·` |
+|---|---:|
+| commits total | 6 |
+| last commit | 2026-11-03 |
+
+**Repo:** [Spoljarevic/ansible-galaxy-archlinux-repomanager](https://codeberg.org/Spoljarevic/ansible-galaxy-archlinux-repomanager) · **Docs:** [galaxy.ansible.com/ui/standalone/roles/spoljarevic/archlinux-repomanager/documentation](https://galaxy.ansible.com/ui/standalone/roles/spoljarevic/archlinux-repomanager/documentation/)
+
+</details>
+
+<details>
+<summary><strong>FreePBX-17-Container</strong> · <code>freepbx</code> <code>podman</code> <code>voip</code> · <em>archived</em></summary>
+
+Containerized **FreePBX 17** setup.
+
+| commits · last 12 weeks | `·········█··` |
+|---|---:|
+| commits total | 11 |
+| last commit | 2026-11-01 |
+
+**Repo:** [Spoljarevic/FreePBX-17-Container](https://codeberg.org/Spoljarevic/FreePBX-17-Container) · **Docs:** [kb.spoljarevic.sh/Big-Projects/FreePBX-17-Docker-Setup](https://kb.spoljarevic.sh/Big-Projects/FreePBX-17-Docker-Setup/)
+
+</details>
+
+<details>
+<summary><strong>Dotfiles</strong> · <code>neovim</code> <code>hyprland</code> <code>nushell</code> · <em>archived</em></summary>
+
+My **Neovim** config and the rest of my desktop.
+
+| commits · last 12 weeks | `·········▄█·` |
+|---|---:|
+| commits total | 111 |
+| last commit | 2026-11-03 |
+| language | nushell |
+
+**Repo:** [Spoljarevic/Dotfiles](https://codeberg.org/Spoljarevic/Dotfiles/src/branch/master/nvim) · **Docs:** [kb.spoljarevic.sh/Other-Repos/Dotfiles/Neovim](https://kb.spoljarevic.sh/Other-Repos/Dotfiles/Neovim/)
 
 </details>
 
