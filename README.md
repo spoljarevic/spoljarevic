@@ -79,7 +79,7 @@ Quadlets for the **Zammad** ticket system.
 
 Galaxy role adding the **CachyOS and BlackArch** repos to vanilla Arch.
 
-| commits · last 12 weeks | `·········█▄·` |
+| commits · last 12 weeks | `·········█··` |
 |---|---:|
 | commits total | 6 |
 | last commit | 2026-11-03 |
@@ -107,7 +107,7 @@ Containerized **FreePBX 17** setup.
 
 My **Neovim** config and the rest of my desktop.
 
-| commits · last 12 weeks | `·········█▄▄` |
+| commits · last 12 weeks | `·········█·▃` |
 |---|---:|
 | commits total | 112 |
 | last commit | 2026-11-15 |
@@ -121,10 +121,10 @@ My **Neovim** config and the rest of my desktop.
 
 ![Codeberg activity over the last 12 months](./assets/stats-activity.svg)
 
-14 public repos · last push 2026-11-15 · rendered 2026-11-16 from the Codeberg and Lichess APIs
+14 public repos · last push 2026-11-16 · rendered 2026-11-17 from the Codeberg and Lichess APIs
 
 <details>
-<summary><strong>codebase</strong> · <code>13,573 lines · 69 quadlet units · 486 ansible tasks</code></summary>
+<summary><strong>codebase</strong> · <code>13,601 lines · 73 quadlet units · 486 ansible tasks</code></summary>
 
 Non-empty lines across my public repos.
 
@@ -134,7 +134,7 @@ Non-empty lines across my public repos.
 | shell | 1,518 | 11% |
 | config | 1,331 | 10% |
 | nushell | 1,198 | 9% |
-| quadlet | 1,065 | 8% |
+| quadlet | 1,093 | 8% |
 | python | 950 | 7% |
 | other | 1,815 | 13% |
 
