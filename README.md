@@ -34,7 +34,7 @@ Reworked post-install playbook, currently in the **testing branch**.
 
 Rootless Grafana monitoring stack as **Podman Quadlets**.
 
-| commits · last 12 weeks | `··█······▄··` |
+| commits · last 12 weeks | `··█·····▂▂··` |
 |---|---:|
 | commits total | 7 |
 | last commit | 2026-11-02 |
@@ -93,7 +93,7 @@ Galaxy role adding the **CachyOS and BlackArch** repos to vanilla Arch.
 
 Containerized **FreePBX 17** setup.
 
-| commits · last 12 weeks | `·········█··` |
+| commits · last 12 weeks | `········▂█··` |
 |---|---:|
 | commits total | 11 |
 | last commit | 2026-11-01 |
@@ -121,7 +121,7 @@ My **Neovim** config and the rest of my desktop.
 
 ![Codeberg activity over the last 12 months](./assets/stats-activity.svg)
 
-14 public repos · last push 2026-11-16 · rendered 2026-11-20 from the Codeberg and Lichess APIs
+14 public repos · last push 2026-11-16 · rendered 2026-11-21 from the Codeberg and Lichess APIs
 
 <details>
 <summary><strong>codebase</strong> · <code>13,601 lines · 73 quadlet units · 486 ansible tasks</code></summary>
