@@ -34,7 +34,7 @@ Reworked post-install playbook, currently in the **testing branch**.
 
 Rootless Grafana monitoring stack as **Podman Quadlets**.
 
-| commits · last 12 weeks | `·▆█·····▆···` |
+| commits · last 12 weeks | `·█······▄···` |
 |---|---:|
 | commits total | 7 |
 | last commit | 2026-11-02 |
@@ -64,7 +64,7 @@ Ansible role hardening **RHEL and Rocky Linux**.
 
 Quadlets for the **Zammad** ticket system.
 
-| commits · last 12 weeks | `········█▆··` |
+| commits · last 12 weeks | `········█▂··` |
 |---|---:|
 | commits total | 11 |
 | last commit | 2026-11-08 |
@@ -121,7 +121,7 @@ My **Neovim** config and the rest of my desktop.
 
 ![Codeberg activity over the last 12 months](./assets/stats-activity.svg)
 
-14 public repos · last push 2026-11-16 · rendered 2026-11-25 from the Codeberg and Lichess APIs
+14 public repos · last push 2026-11-25 · rendered 2026-11-26 from the Codeberg and Lichess APIs
 
 <details>
 <summary><strong>codebase</strong> · <code>13,601 lines · 73 quadlet units · 486 ansible tasks</code></summary>
@@ -147,12 +147,12 @@ Non-empty lines across my public repos.
 |---|---:|---:|
 | classical | 1447 | 16 |
 | rapid | 1408 | 65 |
-| blitz | 1205 | 115 |
+| blitz | 1218 | 116 |
 | bullet | 1402 | 18 |
 | correspondence | 1728 | 22 |
 | puzzle | 1604 | 185 |
 
-481 games · 51% win rate · [@Spoljarevic on lichess](https://lichess.org/@/Spoljarevic)
+482 games · 51% win rate · [@Spoljarevic on lichess](https://lichess.org/@/Spoljarevic)
 
 </details>
 
