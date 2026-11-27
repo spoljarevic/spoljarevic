@@ -19,7 +19,7 @@ I automate infrastructure with Ansible and run it as rootless Podman containers.
 
 Reworked post-install playbook, currently in the **testing branch**.
 
-| commits · last 12 weeks | `········█▁··` |
+| commits · last 12 weeks | `·······█▁▁··` |
 |---|---:|
 | commits total | 53 |
 | last commit | 2026-11-08 |
@@ -49,7 +49,7 @@ Rootless Grafana monitoring stack as **Podman Quadlets**.
 
 Ansible role hardening **RHEL and Rocky Linux**.
 
-| commits · last 12 weeks | `········█···` |
+| commits · last 12 weeks | `·······█▄···` |
 |---|---:|
 | commits total | 5 |
 | last commit | 2026-11-02 |
@@ -64,7 +64,7 @@ Ansible role hardening **RHEL and Rocky Linux**.
 
 Quadlets for the **Zammad** ticket system.
 
-| commits · last 12 weeks | `········█▂··` |
+| commits · last 12 weeks | `·······▃█▃··` |
 |---|---:|
 | commits total | 11 |
 | last commit | 2026-11-08 |
@@ -79,7 +79,7 @@ Quadlets for the **Zammad** ticket system.
 
 Galaxy role adding the **CachyOS and BlackArch** repos to vanilla Arch.
 
-| commits · last 12 weeks | `········█···` |
+| commits · last 12 weeks | `·······▄█···` |
 |---|---:|
 | commits total | 6 |
 | last commit | 2026-11-03 |
@@ -121,7 +121,7 @@ My **Neovim** config and the rest of my desktop.
 
 ![Codeberg activity over the last 12 months](./assets/stats-activity.svg)
 
-14 public repos · last push 2026-11-25 · rendered 2026-11-26 from the Codeberg and Lichess APIs
+14 public repos · last push 2026-11-26 · rendered 2026-11-27 from the Codeberg and Lichess APIs
 
 <details>
 <summary><strong>codebase</strong> · <code>13,601 lines · 73 quadlet units · 486 ansible tasks</code></summary>
@@ -147,12 +147,12 @@ Non-empty lines across my public repos.
 |---|---:|---:|
 | classical | 1447 | 16 |
 | rapid | 1408 | 65 |
-| blitz | 1218 | 116 |
+| blitz | 1234 | 119 |
 | bullet | 1402 | 18 |
 | correspondence | 1728 | 22 |
 | puzzle | 1604 | 185 |
 
-482 games · 51% win rate · [@Spoljarevic on lichess](https://lichess.org/@/Spoljarevic)
+485 games · 51% win rate · [@Spoljarevic on lichess](https://lichess.org/@/Spoljarevic)
 
 </details>
 
